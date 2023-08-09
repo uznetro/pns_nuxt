@@ -18,7 +18,7 @@ const items = [
     title: 'Charge Gift',
     subtitle: 'チャージギフトのある時ない時',
     icon: 'mdi-gift-open-outline',
-    link: '/event2',
+    link: '/gift',
   },
 ]
 </script>
