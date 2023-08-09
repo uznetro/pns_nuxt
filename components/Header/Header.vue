@@ -37,7 +37,7 @@ const items = [
         <v-list-item-content>
           <v-list-item-title class="text-h6"> Index Page </v-list-item-title>
           <v-list-item-subtitle>
-            Event Schedule & knowledge</v-list-item-subtitle
+            Event Schedule & Knowledge</v-list-item-subtitle
           >
         </v-list-item-content>
       </nuxt-link>
