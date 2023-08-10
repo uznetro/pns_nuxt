@@ -16,7 +16,7 @@ const items = [
   },
   {
     title: 'Charge Gift',
-    subtitle: 'チャージギフトのある時ない時',
+    subtitle: 'チャージギフトある時ない時',
     icon: 'mdi-gift-open-outline',
     link: '/gift',
   },
