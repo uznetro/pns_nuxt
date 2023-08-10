@@ -17,14 +17,14 @@ const headers = [
 const data = [
   //エースコマンダー
   {
-    name: '9:00~16:55',
+    name: '9:00〜16:55',
     Event: '装備 ＆ モジュール',
     Memo: 'N/A',
     isActive: true,
   },
   {
     name: '',
-    Event: 'チップ＆キューブ',
+    Event: 'チップ ＆ キューブ',
     Memo: 'N/A',
   },
   {
@@ -43,7 +43,7 @@ const data = [
     Memo: 'N/A',
   },
   {
-    name: '17:00~0:55',
+    name: '17:00〜0:55',
     Event: ' 訓練（ポイント ＆ ブースト）',
     Memo: 'N/A',
   },
@@ -73,7 +73,7 @@ const data = [
     Memo: 'N/A',
   },
   {
-    name: '1:00~8:55',
+    name: '1:00〜8:55',
     Event: 'ダイヤ消費',
     Memo: 'N/A',
   },
@@ -89,7 +89,7 @@ const data = [
   },
   {
     name: '',
-    Event: 'ミュータント＆ グローリー',
+    Event: 'ミュータント ＆ グローリー',
     Memo: 'N/A',
   },
   {
