@@ -106,10 +106,9 @@ const data2 = [
 ]
 
 const toggleValue = ref(false)
-const onChange = (datas) => {
+const onChange = () => {
   console.log('Switch value:', toggleValue.value)
   if (toggleValue.value === true) {
-    console.log(datas)
     return data2
   }
 }
