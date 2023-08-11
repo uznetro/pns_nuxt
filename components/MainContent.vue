@@ -35,9 +35,18 @@ const cards = [
     src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
     //src: require('@/assets/images/header.png'),
     flex: 6,
-    link: '',
+    link: 'event_db',
   },
 ]
+
+const getCreateUrl = (url) => {
+  if (url === 'event_db') {
+    location.href =
+      'https://lookerstudio.google.com/u/0/reporting/a4c22382-1584-40ce-ba09-424c8b6239bd/page/6zXD'
+  } else {
+    location.href = `${url}`
+  }
+}
 </script>
 
 <template>
@@ -46,19 +55,18 @@ const cards = [
       <v-row dense>
         <v-col v-for="card in cards" :key="card.title" :cols="card.flex" x>
           <v-card class="caption">
-            <router-link :to="card.link">
-              <v-img
-                :src="card.src"
-                class="align-end"
-                gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
-                height="180px"
-                cover
-              >
-                <v-card-title class="text-white caption">{{
-                  card.title
-                }}</v-card-title>
-              </v-img>
-            </router-link>
+            <v-img
+              :src="card.src"
+              class="align-end"
+              gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+              height="180px"
+              cover
+              @click="getCreateUrl(card.link)"
+            >
+              <v-card-title class="text-white caption">{{
+                card.title
+              }}</v-card-title>
+            </v-img>
 
             <v-card-actions>
               <v-spacer></v-spacer>
@@ -69,6 +77,7 @@ const cards = [
                 variant="text"
                 icon="mdi-share-variant"
                 :to="card.link"
+                @click="getCreateUrl(card.link)"
               ></v-btn>
             </v-card-actions>
           </v-card>
@@ -84,5 +93,8 @@ const cards = [
 }
 .v-card-title {
   font-size: 1rem;
+}
+.v-img__gradient:hover {
+  cursor: pointer;
 }
 </style>
