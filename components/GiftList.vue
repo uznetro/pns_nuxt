@@ -95,7 +95,7 @@ const data2 = [
   },
   {
     name: '土曜',
-    Event: 'チップ＆キューブ',
+    Event: '？？？',
     Memo: 'N/A',
   },
   {

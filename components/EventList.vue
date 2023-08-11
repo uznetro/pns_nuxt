@@ -51,18 +51,18 @@ const data = [
   //エースコマンダー
   {
     name: '月曜',
-    Event: '英雄獲得/ナノウェポン作成',
+    Event: '英雄獲得 ＆ ナノウェポン',
     Memo: 'N/A',
     isActive: true,
   },
   {
     name: '火曜',
-    Event: '建築/研究',
+    Event: '建築 ＆ 研究',
     Memo: 'N/A',
   },
   {
     name: '水曜',
-    Event: 'スタミナ/AP/資源採集',
+    Event: 'スタミナ ＆ AP ＆ 採集',
     Memo: 'N/A',
   },
   {
@@ -72,17 +72,17 @@ const data = [
   },
   {
     name: '金曜',
-    Event: '器官強化、ギア',
+    Event: '器官強化 ＆ ギア',
     Memo: 'N/A',
   },
   {
     name: '土曜',
-    Event: 'プロモート/強化/改造',
+    Event: 'プロモート ＆ 強化 ＆ 改造',
     Memo: 'N/A',
   },
   {
     name: '日曜',
-    Event: '建築/研究/訓練',
+    Event: '建築 ＆ 研究 ＆ 訓練',
     Memo: '荒野バフ',
   },
 ]
@@ -97,7 +97,7 @@ const data2 = [
   },
   {
     name: '火曜',
-    Event: '建築/研究/訓練',
+    Event: '建築 ＆ 研究 ＆ 訓練',
     Memo: 'ブースト使用、ラッキー７ポイント',
   },
   {
@@ -107,17 +107,17 @@ const data2 = [
   },
   {
     name: '木曜',
-    Event: 'ミュータント&モジュール',
+    Event: 'ミュータント ＆ モジュール',
     Memo: '訓練、ブーストポイント',
   },
   {
     name: '金曜',
-    Event: '栄誉＆器官強化',
+    Event: '栄誉 ＆ 器官強化',
     Memo: 'N/A',
   },
   {
     name: '土曜',
-    Event: 'チップ＆キューブ',
+    Event: 'チップ ＆ キューブ',
     Memo: 'N/A',
   },
   {
