@@ -33,7 +33,7 @@ const headers = [
     width: '90px',
   },
   { title: 'Event', align: 'start', key: 'Event' },
-  { title: 'Memo', align: 'start', key: 'Memo', value: 'switch' },
+  { title: 'Memo', align: 'start', key: 'Memo' },
 ]
 const headers2 = [
   {
@@ -44,7 +44,7 @@ const headers2 = [
     width: '90px',
   },
   { title: 'Event', align: 'start', key: 'Event' },
-  { title: 'Memo', align: 'start', key: 'Memo', value: 'switch' },
+  { title: 'Memo', align: 'start', key: 'Memo' },
 ]
 
 const data = [
@@ -52,33 +52,32 @@ const data = [
   {
     name: '月曜',
     Event: '英雄獲得 ＆ ナノウェポン',
-    Memo: 'N/A',
-    isActive: true,
+    Memo: '',
   },
   {
     name: '火曜',
     Event: '建築 ＆ 研究',
-    Memo: 'N/A',
+    Memo: '',
   },
   {
     name: '水曜',
     Event: 'スタミナ ＆ AP ＆ 採集',
-    Memo: 'N/A',
+    Memo: '',
   },
   {
     name: '木曜',
     Event: '訓練ブースト',
-    Memo: 'N/A',
+    Memo: '',
   },
   {
     name: '金曜',
     Event: '器官強化 ＆ ギア',
-    Memo: 'N/A',
+    Memo: '',
   },
   {
     name: '土曜',
     Event: 'プロモート ＆ 強化 ＆ 改造',
-    Memo: 'N/A',
+    Memo: '',
   },
   {
     name: '日曜',
@@ -92,46 +91,44 @@ const data2 = [
   {
     name: '月曜',
     Event: '英雄強化',
-    Memo: 'N/A',
-    isActive: true,
+    Memo: '',
   },
   {
     name: '火曜',
     Event: '建築 ＆ 研究 ＆ 訓練',
-    Memo: 'ブースト使用、ラッキー７ポイント',
+    Memo: 'ラッキー７',
   },
   {
     name: '水曜',
     Event: '装備',
-    Memo: 'ラッキー７ポイント',
+    Memo: 'ラッキー７',
   },
   {
     name: '木曜',
     Event: 'ミュータント ＆ モジュール',
-    Memo: '訓練、ブーストポイント',
+    Memo: '',
   },
   {
     name: '金曜',
     Event: '栄誉 ＆ 器官強化',
-    Memo: 'N/A',
+    Memo: '',
   },
   {
     name: '土曜',
     Event: 'チップ ＆ キューブ',
-    Memo: 'N/A',
+    Memo: '',
   },
   {
     name: '日曜',
     Event: 'ダイヤの達人',
-    Memo: 'ダイヤルーレット、ダイヤショップ交互？',
+    Memo: '',
   },
 ]
 
 const toggleValue = ref(false)
-const onChange = (datas) => {
+const onChange = () => {
   console.log('Switch value:', toggleValue.value)
   if (toggleValue.value === true) {
-    console.log(datas)
     return data2
   }
 }
