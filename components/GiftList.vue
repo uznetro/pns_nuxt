@@ -142,7 +142,7 @@ const onChange = () => {
 </template>
 
 <style lang="scss">
-//Table
+//Tables
 .v-main .v-data-table-footer {
   padding: 25px 8px !important;
   justify-content: center !important;
