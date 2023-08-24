@@ -4,7 +4,7 @@
   <v-app>
     <HeaderEn />
 
-    <v-main><GiftList /></v-main>
+    <v-main><GiftListEn /></v-main>
 
     <Footer />
   </v-app>

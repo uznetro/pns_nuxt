@@ -17,22 +17,22 @@ console.log(gs.value.values[0]) //ヘッダー行だけ取得できた
 
 const headers = [
   {
-    title: 'Ace',
+    title: 'AceWeek',
     align: 'start',
     sortable: false,
     key: 'name',
-    width: '90px',
+    width: '100px',
   },
   { title: 'Event', align: 'start', key: 'Event' },
   { title: 'Memo', align: 'start', key: 'Memo' },
 ]
 const headers2 = [
   {
-    title: 'OFF',
+    title: 'OffWeek',
     align: 'start',
     sortable: false,
     key: 'name',
-    width: '90px',
+    width: '100px',
   },
   { title: 'Event', align: 'start', key: 'Event' },
   { title: 'Memo', align: 'start', key: 'Memo' },

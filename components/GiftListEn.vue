@@ -4,7 +4,7 @@ import { VDataTable } from 'vuetify/labs/VDataTable'
 
 const headers = [
   {
-    title: 'Ace',
+    title: 'AceWeek',
     align: 'start',
     sortable: false,
     key: 'name',
@@ -15,7 +15,7 @@ const headers = [
 ]
 const headers2 = [
   {
-    title: 'OFF',
+    title: 'OffWeek',
     align: 'start',
     sortable: false,
     key: 'name',
