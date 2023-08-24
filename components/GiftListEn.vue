@@ -26,6 +26,7 @@ const headers2 = [
 ]
 
 const data = [
+  //エスコマ週
   {
     name: 'Mon',
     Event: 'Charge Gift Available!',
@@ -39,7 +40,7 @@ const data = [
   },
   {
     name: 'Wed',
-    Event: 'Charge Gift Not Available',
+    Event: 'No!!!',
     Memo: 'N/A',
   },
   {
@@ -74,7 +75,7 @@ const data2 = [
   },
   {
     name: 'Tue',
-    Event: 'Charge Gift Not Available',
+    Event: 'No!!!',
     Memo: 'N/A',
   },
   {
