@@ -4,7 +4,7 @@ import { VDataTable } from 'vuetify/labs/VDataTable'
 
 const headers = [
   {
-    title: 'エスコマ',
+    title: 'Ace',
     align: 'start',
     sortable: false,
     key: 'name',
@@ -15,7 +15,7 @@ const headers = [
 ]
 const headers2 = [
   {
-    title: '通常週',
+    title: 'OFF',
     align: 'start',
     sortable: false,
     key: 'name',
@@ -26,40 +26,39 @@ const headers2 = [
 ]
 
 const data = [
-  //エースコマンダー
   {
-    name: '月曜',
-    Event: 'チャージギフトあり',
+    name: 'Mon',
+    Event: 'Charge Gift Available!',
     Memo: 'N/A',
     isActive: true,
   },
   {
-    name: '火曜',
-    Event: 'チャージギフトあり',
+    name: 'Tue',
+    Event: 'Charge Gift Available!',
     Memo: 'N/A',
   },
   {
-    name: '水曜',
-    Event: 'チャージギフトなし',
+    name: 'Wed',
+    Event: 'Charge Gift Not Available',
     Memo: 'N/A',
   },
   {
-    name: '木曜',
-    Event: 'チャージギフトあり',
+    name: 'Thu',
+    Event: 'Charge Gift Available!',
     Memo: 'N/A',
   },
   {
-    name: '金曜',
+    name: 'Fri',
     Event: '？？？',
     Memo: 'N/A',
   },
   {
-    name: '土曜',
+    name: 'Sat',
     Event: '？？？',
     Memo: 'N/A',
   },
   {
-    name: '日曜',
+    name: 'Sun',
     Event: '？？？',
     Memo: 'N/A',
   },
@@ -68,38 +67,38 @@ const data = [
 const data2 = [
   //通常週
   {
-    name: '月曜',
-    Event: 'チャージギフトあり',
+    name: 'Mon',
+    Event: 'Charge Gift Available!',
     Memo: 'N/A',
     isActive: true,
   },
   {
-    name: '火曜',
-    Event: 'チャージギフトなし',
+    name: 'Tue',
+    Event: 'Charge Gift Not Available',
     Memo: 'N/A',
   },
   {
-    name: '水曜',
-    Event: 'チャージギフトあり',
+    name: 'Wed',
+    Event: 'Charge Gift Available!',
     Memo: 'N/A',
   },
   {
-    name: '木曜',
-    Event: 'チャージギフトあり',
+    name: 'Thu',
+    Event: 'Charge Gift Available!',
     Memo: 'N/A',
   },
   {
-    name: '金曜',
+    name: 'Fri',
     Event: '？？？',
     Memo: 'N/A',
   },
   {
-    name: '土曜',
+    name: 'Sat',
     Event: '？？？',
     Memo: 'N/A',
   },
   {
-    name: '日曜',
+    name: 'Sun',
     Event: '？？？',
     Memo: 'N/A',
   },

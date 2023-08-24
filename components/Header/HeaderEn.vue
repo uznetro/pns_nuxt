@@ -8,19 +8,19 @@ const items = [
     title: 'Event Schedule',
     subtitle: 'Ace Commander & Regular Event',
     icon: 'mdi-calendar-multiselect',
-    link: '/event',
+    link: '/en/event',
   },
   {
     title: 'Break Loose',
-    subtitle: '獅子奮迅スケジュール',
+    subtitle: 'Break Loose Event List',
     icon: 'mdi-image',
-    link: '/break',
+    link: '/en/break',
   },
   {
     title: 'Charge Gift',
-    subtitle: 'チャージギフトある時ない時',
+    subtitle: 'Charge Gift Schedule',
     icon: 'mdi-gift-open-outline',
-    link: '/gift',
+    link: '/en/gift',
   },
 ]
 
@@ -37,7 +37,7 @@ const show = ref(false) // ドロワーの初期状態
 
   <v-navigation-drawer app v-model="drawer">
     <v-list-item min-height="70px">
-      <nuxt-link to="/" class="main-menu">
+      <nuxt-link to="/en" class="main-menu">
         <v-icon>mdi-lead-pencil</v-icon>
         <v-list-item-content>
           <v-list-item-title class="text-h6"> Index Page </v-list-item-title>
@@ -75,9 +75,7 @@ const show = ref(false) // ドロワーの初期状態
           <v-icon>mdi-google-analytics</v-icon>
           <v-list-item-content>
             <v-list-item-title>Event DataBase</v-list-item-title>
-            <v-list-item-subtitle
-              >イベントボーダーをアーカイブ</v-list-item-subtitle
-            >
+            <v-list-item-subtitle>Event Border Line</v-list-item-subtitle>
           </v-list-item-content>
         </a>
       </v-list-item>

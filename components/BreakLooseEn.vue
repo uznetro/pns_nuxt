@@ -4,7 +4,7 @@ import { VDataTable } from 'vuetify/labs/VDataTable'
 
 const headers = [
   {
-    title: '獅子奮迅',
+    title: 'Break Loose',
     align: 'start',
     sortable: false,
     key: 'name',
@@ -16,63 +16,63 @@ const headers = [
 const data = [
   {
     name: '9:00〜16:55',
-    Event: '装備 ＆ モジュール',
+    Event: 'Module & Module',
   },
   {
     name: '',
-    Event: 'チップ ＆ キューブ',
+    Event: 'Chip & Cube',
   },
   {
     name: '',
-    Event: '建築 ＆ 研究 ＆ 訓練（ブースト）',
+    Event: 'Build & Train & Research (SpeedUp)',
   },
   {
     name: '',
-    Event: '英雄の破片',
+    Event: 'Hero',
   },
   {
     name: '',
-    Event: 'ナノウェポン',
+    Event: 'Nano Weapon',
   },
   {
     name: '17:00〜0:55',
-    Event: ' 訓練（ポイント ＆ ブースト）',
+    Event: 'Troop (Point+SpeedUp)',
   },
   {
     name: '',
-    Event: '研究（ポイント ＆ ブースト）',
+    Event: 'Research (Point+Speedup)',
   },
   {
     name: '',
-    Event: 'スタミナ ＆ AP',
+    Event: 'Stam & AP',
   },
   {
     name: '',
-    Event: 'ナノウェポン',
+    Event: 'Nano Weapon',
   },
   {
     name: '',
-    Event: '器官',
+    Event: 'Bio',
   },
   {
     name: '1:00〜8:55',
-    Event: 'ダイヤ消費',
+    Event: 'Diamond',
   },
   {
     name: '',
-    Event: '建築（ポイント ＆ ブースト）',
+    Event: 'Build (Point+SpeedUp)',
   },
   {
     name: '',
-    Event: '建築 ＆ 研究 ＆ 訓練（ポイント）',
+    Event: 'Build & Train & Research (Point)',
   },
   {
     name: '',
-    Event: 'ミュータント ＆ グローリー',
+    Event: 'Nova & Glory',
   },
   {
     name: '',
-    Event: 'ナノウェポン',
+    Event: 'Nano Weapon',
   },
 ]
 </script>

@@ -1,7 +1,5 @@
 <script setup>
-import { ref, computed, reactive } from 'vue'
-import draggable from 'vuedraggable'
-import Avatar from './Avatar/AvatarIcon.vue'
+import { ref } from 'vue'
 import { VDataTable } from 'vuetify/labs/VDataTable'
 
 // const {
@@ -17,16 +15,9 @@ let url =
 const { data: gs } = await useFetch(url)
 console.log(gs.value.values[0]) //ヘッダー行だけ取得できた
 
-const dataList1 = ref([])
-const dataList2 = ref([])
-const dataList3 = ref([])
-const dataList4 = ref([])
-const dataList5 = ref([])
-console.log(dataList5.value)
-
 const headers = [
   {
-    title: 'エスコマ',
+    title: 'Ace',
     align: 'start',
     sortable: false,
     key: 'name',
@@ -37,7 +28,7 @@ const headers = [
 ]
 const headers2 = [
   {
-    title: '通常週',
+    title: 'OFF',
     align: 'start',
     sortable: false,
     key: 'name',
@@ -50,77 +41,77 @@ const headers2 = [
 const data = [
   //エースコマンダー
   {
-    name: '月曜',
-    Event: '英雄獲得 ＆ ナノウェポン',
+    name: 'Mon',
+    Event: 'Hero & Nano Weapon',
     Memo: '',
   },
   {
-    name: '火曜',
-    Event: '建築 ＆ 研究',
+    name: 'Tue',
+    Event: 'Build & Research',
     Memo: '',
   },
   {
-    name: '水曜',
-    Event: 'スタミナ ＆ AP ＆ 採集',
+    name: 'Wed',
+    Event: 'Stam & AP & Gather',
     Memo: '',
   },
   {
-    name: '木曜',
-    Event: '訓練ブースト',
+    name: 'Thu',
+    Event: 'Troop SpeedUp',
     Memo: '',
   },
   {
-    name: '金曜',
-    Event: '器官強化 ＆ ギア',
+    name: 'Fri',
+    Event: 'Bio & Refiner',
     Memo: '',
   },
   {
-    name: '土曜',
-    Event: 'プロモート ＆ 強化 ＆ 改造',
+    name: 'Sat',
+    Event: 'Promote & Enhance & Remodeling',
     Memo: '',
   },
   {
-    name: '日曜',
-    Event: '建築 ＆ 研究 ＆ 訓練',
-    Memo: '荒野バフ',
+    name: 'Sun',
+    Event: 'Build & Train & Research',
+    Memo: '',
   },
 ]
 
 const data2 = [
   //通常週
   {
-    name: '月曜',
-    Event: '英雄強化',
+    name: 'Mon',
+    Event: 'Hero',
+    Memo: 'Joy777',
+  },
+  {
+    name: 'Tue',
+    Event: 'Build & Train & Research',
+    Memo: 'Joy777',
+  },
+  {
+    name: 'Wed',
+    Event: 'Gear Upgrade',
+    Memo: 'Joy777',
+  },
+  {
+    name: 'Thu',
+    Event: 'Nova & Module',
     Memo: '',
   },
   {
-    name: '火曜',
-    Event: '建築 ＆ 研究 ＆ 訓練',
-    Memo: 'ラッキー７',
-  },
-  {
-    name: '水曜',
-    Event: '装備',
-    Memo: 'ラッキー７',
-  },
-  {
-    name: '木曜',
-    Event: 'ミュータント ＆ モジュール',
+    name: 'Fri',
+    Event: 'Glory & Bio',
     Memo: '',
   },
   {
-    name: '金曜',
-    Event: '栄誉 ＆ 器官強化',
+    name: 'Sat',
+    Event: 'Diamond',
     Memo: '',
   },
   {
-    name: '土曜',
-    Event: 'ダイヤの達人',
-    Memo: '',
-  },
-  {
-    name: '日曜',
-    Event: 'ダイヤの達人 ＆ チップ ＆ キューブ',
+    name: 'Sun',
+    Event: 'Diamond & Chip & Cube',
     Memo: '',
   },
 ]
