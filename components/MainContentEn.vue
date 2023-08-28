@@ -9,7 +9,7 @@ const cards = [
   },
   {
     title: 'Break Loose',
-    lead: 'Break Loose Schedule',
+    lead: 'Break Loose Event List',
     src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
     flex: 6,
     link: '/en/break',

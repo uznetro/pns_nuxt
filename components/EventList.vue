@@ -91,7 +91,7 @@ const data2 = [
   {
     name: '月曜',
     Event: '英雄強化',
-    Memo: '',
+    Memo: 'ラッキー７',
   },
   {
     name: '火曜',

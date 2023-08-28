@@ -62,7 +62,7 @@ const data = [
   },
   {
     name: 'Fri',
-    Event: 'Bio & Refiner',
+    Event: 'Bioenhancer & Refiner',
     Memo: '',
   },
   {

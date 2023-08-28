@@ -16,7 +16,7 @@ const headers = [
 const data = [
   {
     name: '9:00〜16:55',
-    Event: 'Module & Module',
+    Event: 'Gear & Module',
   },
   {
     name: '',
@@ -52,7 +52,7 @@ const data = [
   },
   {
     name: '',
-    Event: 'Bio',
+    Event: 'Bioenhancer',
   },
   {
     name: '1:00〜8:55',

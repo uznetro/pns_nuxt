@@ -55,12 +55,12 @@ const data = [
   },
   {
     name: 'Sat',
-    Event: '？？？',
+    Event: 'No!!!',
     Memo: 'N/A',
   },
   {
     name: 'Sun',
-    Event: '？？？',
+    Event: 'No!!!',
     Memo: 'N/A',
   },
 ]
