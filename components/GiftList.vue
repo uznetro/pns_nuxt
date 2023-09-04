@@ -50,7 +50,7 @@ const data = [
   },
   {
     name: '金曜',
-    Event: '？？？',
+    Event: 'チャージギフトなし',
     Memo: 'N/A',
   },
   {
@@ -146,6 +146,15 @@ const onChange = () => {
 .v-main .v-data-table-footer {
   padding: 25px 8px !important;
   justify-content: center !important;
+}
+
+th:first-child .v-data-table-header__content > span {
+  color: #ffffff;
+  font-weight: bold;
+  background: #e91e63;
+  padding: 3px;
+  border-radius: 4px;
+  font-size: 11px;
 }
 
 //トグルスイッチ
