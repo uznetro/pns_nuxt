@@ -40,7 +40,7 @@ const data = [
   },
   {
     name: '水曜',
-    Event: 'チャージギフトなし',
+    Event: 'なし',
     Memo: 'N/A',
   },
   {
@@ -50,17 +50,17 @@ const data = [
   },
   {
     name: '金曜',
-    Event: 'チャージギフトなし',
+    Event: 'なし',
     Memo: 'N/A',
   },
   {
     name: '土曜',
-    Event: 'チャージギフトなし',
+    Event: 'なし',
     Memo: 'N/A',
   },
   {
     name: '日曜',
-    Event: 'チャージギフトなし',
+    Event: 'なし',
     Memo: 'N/A',
   },
 ]
@@ -75,7 +75,7 @@ const data2 = [
   },
   {
     name: '火曜',
-    Event: 'チャージギフトなし',
+    Event: 'なし',
     Memo: 'N/A',
   },
   {
@@ -90,17 +90,17 @@ const data2 = [
   },
   {
     name: '金曜',
-    Event: 'チャージギフトなし',
+    Event: 'なし',
     Memo: 'N/A',
   },
   {
     name: '土曜',
-    Event: 'チャージギフトなし',
+    Event: 'なし',
     Memo: 'N/A',
   },
   {
     name: '日曜',
-    Event: 'チャージギフトなし',
+    Event: 'なし',
     Memo: 'N/A',
   },
 ]
