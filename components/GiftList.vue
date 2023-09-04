@@ -90,17 +90,17 @@ const data2 = [
   },
   {
     name: '金曜',
-    Event: '？？？',
+    Event: 'チャージギフトなし',
     Memo: 'N/A',
   },
   {
     name: '土曜',
-    Event: '？？？',
+    Event: 'チャージギフトなし',
     Memo: 'N/A',
   },
   {
     name: '日曜',
-    Event: '？？？',
+    Event: 'チャージギフトなし',
     Memo: 'N/A',
   },
 ]

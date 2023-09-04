@@ -50,7 +50,7 @@ const data = [
   },
   {
     name: 'Fri',
-    Event: '？？？',
+    Event: 'No!!!',
     Memo: 'N/A',
   },
   {
@@ -90,17 +90,17 @@ const data2 = [
   },
   {
     name: 'Fri',
-    Event: '？？？',
+    Event: 'No!!!',
     Memo: 'N/A',
   },
   {
     name: 'Sat',
-    Event: '？？？',
+    Event: 'No!!!',
     Memo: 'N/A',
   },
   {
     name: 'Sun',
-    Event: '？？？',
+    Event: 'No!!!',
     Memo: 'N/A',
   },
 ]
