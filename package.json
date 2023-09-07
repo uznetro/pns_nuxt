@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "@mdi/font": "^7.2.96",
+    "@nuxtjs/google-gtag": "^1.0.4",
     "@vueuse/core": "^10.2.0",
     "sass": "^1.62.1",
     "vuedraggable": "^4.1.0",

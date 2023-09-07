@@ -14,4 +14,13 @@ export default defineNuxtConfig({
       'process.env.DEBUG': false,
     },
   },
+  modules: [
+    [
+      '@nuxtjs/google-gtag',
+      {
+        id: 'G-XZDTDVJGEE',
+        debug: true,
+      },
+    ],
+  ],
 })
