@@ -6,11 +6,10 @@
 
     <v-main>
       <!-- <v-img src="~＠assets/images/database_thumb.jpg"></v-img>
-      <img src="~assets/images/database_thumb.jpg" alt="" /> -->
-
+      <img src="~assets/images/bnr.png" alt="" /> -->
       <MainContent />
     </v-main>
-
+    <PromotionBanner />
     <Footer />
   </v-app>
 </template>
