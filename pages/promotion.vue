@@ -48,7 +48,7 @@ const messages = [
             <v-card-text>
               <div class="font-weight-bold ms-1 mb-2">
                 <h2 class="heading">
-                  <v-chip size="x-large" color="red">
+                  <v-chip size="x-large" color="red" style="font-weight: bold">
                     s425「AAA」の求人情報
                   </v-chip>
                 </h2>
@@ -61,7 +61,7 @@ const messages = [
                   :dot-color="message.color"
                   size="x-small"
                 >
-                  <div class="mb-4">
+                  <div class="mb-4 message-body">
                     <div class="font-weight-normal">
                       <strong>{{ message.title }}</strong>
                     </div>
@@ -93,8 +93,7 @@ const messages = [
   border-bottom: 1px solid #d1d1d1;
   padding-bottom: 7px;
 }
-
-.v-chip__content {
-  font-weight: bold;
+.message-body {
+  font-size: 14px;
 }
 </style>
