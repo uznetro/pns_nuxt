@@ -147,6 +147,15 @@ const onChange = () => {
   padding: 25px 8px !important;
   justify-content: center !important;
 }
+//エスコマ・通常週の識別ハイライト
+th:first-child .v-data-table-header__content > span {
+  color: #ffffff;
+  font-weight: bold;
+  background: #e91e63;
+  padding: 3px;
+  border-radius: 4px;
+  font-size: 11px;
+}
 
 //トグルスイッチ
 .v-switch {

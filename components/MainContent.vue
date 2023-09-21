@@ -50,7 +50,7 @@ const getCreateUrl = (url) => {
 </script>
 
 <template>
-  <v-card class="mx-auto" max-width="500">
+  <v-card class="mx-auto card-wrap" max-width="500">
     <v-container fluid>
       <v-row dense>
         <v-col v-for="card in cards" :key="card.title" :cols="card.flex" x>
@@ -88,6 +88,9 @@ const getCreateUrl = (url) => {
 </template>
 
 <style scoped lang="scss">
+.card-wrap {
+  box-shadow: none;
+}
 .v-card a {
   text-decoration: none;
 }

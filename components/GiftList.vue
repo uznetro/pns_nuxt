@@ -148,6 +148,7 @@ const onChange = () => {
   justify-content: center !important;
 }
 
+//エスコマ・通常週の識別ハイライト
 th:first-child .v-data-table-header__content > span {
   color: #ffffff;
   font-weight: bold;
