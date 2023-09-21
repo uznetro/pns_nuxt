@@ -21,7 +21,8 @@
             [AAA]移民者募集中！荒野プラチナキープ、巣窟50バンバン出るアクティブギルドです！
           </p>
           <nuxt-link to="/promotion">
-            <img
+            <v-img
+              lazy-src="https://picsum.photos/id/11/10/6"
               class="bnr-img"
               src="https://res.cloudinary.com/dtvanb4qz/image/upload/v1695287857/s7uquku0oocar2u5oari.png"
           /></nuxt-link>
@@ -49,7 +50,7 @@
   padding: 0 14px;
   transform: translate(-50%, -50%);
   background-color: #fff;
-  color: #454545;
+  color: #e58a1d;
   font-family: 'Barlow', sans-serif;
   letter-spacing: 0.025em;
   font-weight: bold;
