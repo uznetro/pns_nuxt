@@ -22,17 +22,23 @@ const messages = [
     color: 'pink',
   },
   {
-    title: 'その他PR',
-    lead: '24時間常に誰かがいるアクティブなギルドです。戦力上位は海外の方でまぁまぁ多国籍ギルド！',
+    title: 'PRポイント',
+    lead: 'かなりアクティブなギルドです。戦力上位は海外の方でまぁまぁ多国籍ギルド！',
     caption:
       '戦力順でサブ垢1対は同ギルド所属可。サブ・姉妹ギルドもあるので複数垢でもOK',
     color: 'deep-purple-lighten-1',
   },
   {
-    title: '応募方法',
-    lead: 'わたくしmelon soda.か、ギルド官職者まで！',
-    caption: 'ギルド要塞 S:425 X:235 Y:477',
+    title: 'デメリット的な',
+    lead: '国自体が超アクティブで過密なのでLv6〜採集はなかなか大変です',
+    caption: 'Lv5採集出来たらいいや〜って感じでやってます',
     color: 'pink',
+  },
+  {
+    title: '応募方法',
+    lead: 'あたいmelon soda.か、ギルド官職者まで！',
+    caption: 'ギルド要塞 S:425 X:235 Y:477',
+    color: 'deep-purple-lighten-1',
   },
 ]
 </script>
