@@ -124,7 +124,8 @@ const dialog = ref(false)
 
             <v-card :retain-focus="false">
               <v-card-text>
-                ここにチャージギフトの画像とか入れていく予定
+                under development
+                <br />Gift image will be set here
                 <!-- <v-img
                   src="https://res.cloudinary.com/dtvanb4qz/image/upload/v1695287857/s7uquku0oocar2u5oari.png"
                 /> -->
@@ -166,7 +167,9 @@ const dialog = ref(false)
             </template>
 
             <v-card>
-              <v-card-text> ここにチャージギフトの画像とか </v-card-text>
+              <v-card-text>
+                under development <br />Gift image will be set here</v-card-text
+              >
               <v-card-actions>
                 <v-btn color="primary" block @click="dialog = false"
                   >Close Dialog</v-btn
