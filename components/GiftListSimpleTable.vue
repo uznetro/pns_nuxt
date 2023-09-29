@@ -113,34 +113,19 @@ const dialog = ref(false)
       </tr>
     </thead>
     <tbody>
-      <tr v-for="item in data" :key="item.name">
-        <td>{{ item.name }}</td>
-        <td>{{ item.event }}</td>
-        <td v-if="item.img">
-          <v-dialog v-model="dialog" :retain-focus="false" width="auto">
-            <template #activator="{ props }">
-              <v-btn size="small" color="primary" v-bind="props">
-                Detail
-              </v-btn>
-            </template>
-
-            <v-card :retain-focus="false">
-              <v-card-text>
-                ここにチャージギフトの画像とか入れていく予定
-                <!-- <v-img
-                  src="https://res.cloudinary.com/dtvanb4qz/image/upload/v1695287857/s7uquku0oocar2u5oari.png"
-                /> -->
-                <!-- <v-img :src="item.img" /> -->
-              </v-card-text>
-              <v-card-actions>
-                <v-btn color="primary" block @click="dialog = false"
-                  >Close Dialog</v-btn
-                >
-              </v-card-actions>
-            </v-card>
-          </v-dialog>
+      <tr>
+        <td>{{ data.name }}</td>
+        <td>aaaaa</td>
+        <td>
+          <Dialog label="aaaaaa" img="https://placehold.jp/450x600.png" />
         </td>
-        <td v-if="item.imgNA">N/A</td>
+      </tr>
+      <tr>
+        <td>bbbb</td>
+        <td>bbbb</td>
+        <td>
+          <Dialog label="bbbbbb" img="https://placehold.jp/300x200.png" />
+        </td>
       </tr>
     </tbody>
   </v-table>

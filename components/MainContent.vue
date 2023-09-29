@@ -2,7 +2,7 @@
 const cards = [
   {
     title: 'Event Schedule',
-    lead: 'Ace Commander & Regular Event',
+    lead: 'エースコマンダー & レギュラーイベント',
     src: 'https://res.cloudinary.com/dtvanb4qz/image/upload/f_auto,q_auto/bmoq1itmmgxpw7vnwheo',
     flex: 12,
     link: '/event',
