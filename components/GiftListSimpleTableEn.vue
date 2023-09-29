@@ -2,42 +2,41 @@
 import { ref } from 'vue'
 
 const data = [
-  //エースコマンダー
+  //エスコマ週
   {
-    name: '月曜',
-    event: 'チャージギフトあり',
-    img: 'https://chico-shikaku.com/wp-content/uploads/2019/05/ctito-1024x865.png',
+    name: 'Mon',
+    event: 'Charge Gift Available!',
+    img: 'N/A',
     isActive: true,
   },
   {
-    name: '火曜',
-    event: 'チャージギフトあり',
-    img: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
-    //img: require('@/assets/images/bnr.png'),
-  },
-  {
-    name: '水曜',
-    event: 'なし',
-    imgNA: 'N/A',
-  },
-  {
-    name: '木曜',
-    event: 'チャージギフトあり',
+    name: 'Tue',
+    event: 'Charge Gift Available!',
     img: 'N/A',
   },
   {
-    name: '金曜',
-    event: 'なし',
+    name: 'Wed',
+    event: 'No!!!',
     imgNA: 'N/A',
   },
   {
-    name: '土曜',
-    event: 'なし',
+    name: 'Thu',
+    event: 'Charge Gift Available!',
+    img: 'N/A',
+  },
+  {
+    name: 'Fri',
+    event: 'No!!!',
     imgNA: 'N/A',
   },
   {
-    name: '日曜',
-    event: 'なし',
+    name: 'Sat',
+    event: 'No!!!',
+    imgNA: 'N/A',
+  },
+  {
+    name: 'Sun',
+    event: 'No!!!',
     imgNA: 'N/A',
   },
 ]
@@ -45,39 +44,39 @@ const data = [
 const data2 = [
   //通常週
   {
-    name: '月曜',
-    event: 'チャージギフトあり',
+    name: 'Mon',
+    event: 'Charge Gift Available!',
     img: 'N/A',
     isActive: true,
   },
   {
-    name: '火曜',
-    event: 'なし',
+    name: 'Tue',
+    event: 'No!!!',
     imgNA: 'N/A',
   },
   {
-    name: '水曜',
-    event: 'チャージギフトあり',
+    name: 'Wed',
+    event: 'Charge Gift Available!',
     img: 'N/A',
   },
   {
-    name: '木曜',
-    event: 'チャージギフトあり',
+    name: 'Thu',
+    event: 'Charge Gift Available!',
     img: 'N/A',
   },
   {
-    name: '金曜',
-    event: 'なし',
+    name: 'Fri',
+    event: 'No!!!',
     imgNA: 'N/A',
   },
   {
-    name: '土曜',
-    event: 'なし',
+    name: 'Sat',
+    event: 'No!!!',
     imgNA: 'N/A',
   },
   {
-    name: '日曜',
-    event: 'なし',
+    name: 'Sun',
+    event: 'No!!!',
     imgNA: 'N/A',
   },
 ]
@@ -94,7 +93,6 @@ const dialog = ref(false)
 </script>
 
 <template>
-  <!-- <p>{{ gs.values }}</p> -->
   <v-switch
     v-model="toggleValue"
     prepend-icon="mdi-weather-night"
@@ -183,18 +181,20 @@ const dialog = ref(false)
   </v-table>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 //Tables
-
+.v-main .v-data-table-footer {
+  padding: 25px 8px !important;
+  justify-content: center !important;
+}
 //エスコマ・通常週の識別ハイライト
-.label {
+th:first-child .v-data-table-header__content > span {
   color: #ffffff;
   font-weight: bold;
   background: #e91e63;
   padding: 3px;
   border-radius: 4px;
   font-size: 11px;
-  display: inline-block;
 }
 
 //トグルスイッチ
