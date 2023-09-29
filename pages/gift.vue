@@ -4,7 +4,7 @@
   <v-app>
     <Header />
 
-    <v-main><GiftList /></v-main>
+    <v-main><GiftListSimpleTable /></v-main>
 
     <Footer />
   </v-app>

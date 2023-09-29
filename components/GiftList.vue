@@ -129,8 +129,10 @@ const onChange = () => {
     header
     :headers="headers"
     :items="data"
+    item-key="id"
   >
   </v-data-table>
+
   <v-data-table
     v-if="toggleValue == true"
     fixed
