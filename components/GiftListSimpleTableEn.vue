@@ -104,7 +104,7 @@ const dialog = ref(false)
     <thead>
       <tr>
         <th width="90px" class="text-left">
-          <span class="label">エスコマ</span>
+          <span class="label">AceWeek</span>
         </th>
         <th class="text-left">Gift</th>
         <th class="text-left">Memo</th>
@@ -148,7 +148,7 @@ const dialog = ref(false)
     <thead>
       <tr>
         <th width="90px" class="text-left">
-          <span class="label">通常週</span>
+          <span class="label">OffWeek</span>
         </th>
         <th class="text-left">Gift</th>
         <th class="text-left">Memo</th>
