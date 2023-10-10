@@ -89,6 +89,8 @@ const onChange = () => {
     return data2
   }
 }
+
+const dialog = ref(false)
 </script>
 
 <template>
@@ -112,45 +114,18 @@ const onChange = () => {
     </thead>
     <tbody>
       <tr>
-        <td>月曜日</td>
-        <td>チャージギフトあり</td>
+        <td>{{ data.name }}</td>
+        <td>aaaaa</td>
         <td>
           <Dialog label="aaaaaa" img="https://placehold.jp/450x600.png" />
         </td>
       </tr>
       <tr>
-        <td>火曜日</td>
-        <td>チャージギフトあり</td>
+        <td>bbbb</td>
+        <td>bbbb</td>
         <td>
           <Dialog label="bbbbbb" img="https://placehold.jp/300x200.png" />
         </td>
-      </tr>
-      <tr>
-        <td>水曜日</td>
-        <td>なし</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>木曜日</td>
-        <td>チャージギフトあり</td>
-        <td>
-          <Dialog label="bbbbbb" img="https://placehold.jp/300x200.png" />
-        </td>
-      </tr>
-      <tr>
-        <td>金曜日</td>
-        <td>なし</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>土曜日</td>
-        <td>なし</td>
-        <td>末日フェス</td>
-      </tr>
-      <tr>
-        <td>日曜日</td>
-        <td>なし</td>
-        <td>末日フェス</td>
       </tr>
     </tbody>
   </v-table>
@@ -166,46 +141,28 @@ const onChange = () => {
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>月曜日</td>
-        <td>チャージギフトあり</td>
-        <td>
-          <Dialog label="aaaaaa" img="https://placehold.jp/450x600.png" />
+      <tr v-for="item in data2" :key="item.name">
+        <td>{{ item.name }}</td>
+        <td>{{ item.event }}</td>
+        <td v-if="item.img">
+          <v-dialog v-model="dialog" width="auto">
+            <template #activator="{ props }">
+              <v-btn size="small" outlined color="primary" v-bind="props">
+                Detail
+              </v-btn>
+            </template>
+
+            <v-card>
+              <v-card-text> ここにチャージギフトの画像とか </v-card-text>
+              <v-card-actions>
+                <v-btn color="primary" block @click="dialog = false"
+                  >Close Dialog</v-btn
+                >
+              </v-card-actions>
+            </v-card>
+          </v-dialog>
         </td>
-      </tr>
-      <tr>
-        <td>火曜日</td>
-        <td>なし</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>水曜日</td>
-        <td>チャージギフトあり</td>
-        <td>
-          <Dialog label="bbbbbb" img="https://placehold.jp/300x200.png" />
-        </td>
-      </tr>
-      <tr>
-        <td>木曜日</td>
-        <td>チャージギフトあり</td>
-        <td>
-          <Dialog label="bbbbbb" img="https://placehold.jp/300x200.png" />
-        </td>
-      </tr>
-      <tr>
-        <td>金曜日</td>
-        <td>なし</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>土曜日</td>
-        <td>なし</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>日曜日</td>
-        <td>なし</td>
-        <td></td>
+        <td v-if="item.imgNA">N/A</td>
       </tr>
     </tbody>
   </v-table>

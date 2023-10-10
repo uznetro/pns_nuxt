@@ -22,7 +22,7 @@ withDefaults(defineProps<Props>(), {
     <v-card :retain-focus="false">
       <v-card-text>
         {{ label }}<br />
-        <v-img :src="img" />
+        <img :src="img" />
       </v-card-text>
       <v-card-actions>
         <v-btn color="primary" block @click="dialog = false"
@@ -33,4 +33,8 @@ withDefaults(defineProps<Props>(), {
   </v-dialog>
 </template>
 
-<style scoped></style>
+<style scoped>
+.v-card-text img {
+  width: 100%;
+}
+</style>
