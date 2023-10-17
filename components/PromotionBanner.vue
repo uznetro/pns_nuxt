@@ -18,7 +18,7 @@
           <h3 class="title">promotion</h3>
           <p class="lead">
             S425
-            [AAA]移民者募集中！荒野プラチナキープ、巣窟50バンバン出るアクティブギルドです！
+            [AAA]移民者募集中！浄水リーグ２連続プレーオフ進出、荒野プラチナキープなアクティブギルドです！
           </p>
           <nuxt-link to="/promotion">
             <v-img
