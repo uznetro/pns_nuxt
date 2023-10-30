@@ -134,7 +134,10 @@ const onChange = () => {
         <td>木曜日</td>
         <td>チャージギフトあり</td>
         <td>
-          <Dialog label="bbbbbb" img="https://placehold.jp/300x200.png" />
+          <Dialog
+            label="エスコマ木曜日"
+            img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1697700052/ace-thu-gift.png"
+          />
         </td>
       </tr>
       <tr>

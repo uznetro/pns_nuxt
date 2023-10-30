@@ -3,6 +3,9 @@ import { ref } from 'vue'
 import SubMenu from '../SubMenu.vue'
 const drawer = ref(false) // ドロワーの初期状態
 
+const variants = 'tonal'
+const color = ref('indigo')
+
 const items = [
   {
     title: 'Event Schedule',
@@ -21,6 +24,13 @@ const items = [
     subtitle: 'Charge Gift Schedule',
     icon: 'mdi-gift-open-outline',
     link: '/en/gift',
+  },
+  {
+    title: 'Formation Simulator(test)',
+    lead: 'Wasteland King Tool',
+    src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
+    icon: 'mdi-gamepad-circle-right',
+    link: '/wk',
   },
 ]
 
@@ -80,6 +90,24 @@ const show = ref(false) // ドロワーの初期状態
         </a>
       </v-list-item>
     </v-list>
+
+    <v-divider></v-divider>
+
+    <v-card class="attention-card" :color="color" :variant="variants">
+      <v-card-item>
+        <div>
+          <div class="text-h6 mb-1">Notes.</div>
+          <div class="text-caption">
+            This site has nothing to do with the official site. Please refrain
+            from contacting the official site.
+          </div>
+        </div>
+      </v-card-item>
+
+      <v-card-actions>
+        <v-btn variant="outlined" to="/terms"> Terms of Use </v-btn>
+      </v-card-actions>
+    </v-card>
   </v-navigation-drawer>
   <!-- <img src="~/assets/images/header.png" /> -->
 </template>
@@ -106,5 +134,9 @@ const show = ref(false) // ドロワーの初期状態
 }
 .v-list-item-title {
   font-size: 16px;
+}
+
+.attention-card {
+  margin: 8px;
 }
 </style>

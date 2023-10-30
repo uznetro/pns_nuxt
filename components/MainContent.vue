@@ -23,7 +23,7 @@ const cards = [
     link: '/gift',
   },
   {
-    title: 'Formation Simulator',
+    title: 'Formation Simulator(test)',
     lead: '荒野編成システム',
     src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
     flex: 6,
