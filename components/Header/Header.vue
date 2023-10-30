@@ -30,7 +30,7 @@ const items = [
     lead: '荒野編成システム',
     src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
     icon: 'mdi-gamepad-circle-right',
-    link: '/wk',
+    //link: '/wk',
   },
 ]
 

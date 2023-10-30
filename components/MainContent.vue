@@ -27,7 +27,7 @@ const cards = [
     lead: '荒野編成システム',
     src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
     flex: 6,
-    link: '/wk',
+    link: '/',
   },
   {
     title: 'Event Database',

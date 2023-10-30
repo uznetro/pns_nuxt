@@ -27,7 +27,7 @@ const cards = [
     lead: 'Wasteland King Tool',
     src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
     flex: 6,
-    link: '/wk',
+    link: '/en',
   },
   {
     title: 'Event Database',
