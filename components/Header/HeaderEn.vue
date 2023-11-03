@@ -26,8 +26,8 @@ const items = [
     link: '/en/gift',
   },
   {
-    title: 'Formation Simulator(test)',
-    lead: 'Wasteland King Tool',
+    title: 'Formation Simulator',
+    subtitle: 'Wasteland King Tool (prototype)',
     src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
     icon: 'mdi-gamepad-circle-right',
     //link: '/wk',

@@ -27,7 +27,7 @@ const items = [
   },
   {
     title: 'Formation Simulator',
-    lead: '荒野編成システム',
+    subtitle: '荒野編成システム（プロトタイプ）',
     src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
     icon: 'mdi-gamepad-circle-right',
     //link: '/wk',
