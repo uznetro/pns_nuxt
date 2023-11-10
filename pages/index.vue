@@ -1,4 +1,8 @@
-<script setup></script>
+<script setup>
+import { useTrackingTag } from '~/composables/useTrackingTag'
+const { insertTracking } = useTrackingTag()
+insertTracking()
+</script>
 
 <template>
   <v-app>
