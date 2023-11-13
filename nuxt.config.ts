@@ -19,7 +19,7 @@ export default defineNuxtConfig({
       stage: process.env.STAGE,
 
       tracking: {
-        pnsGtmId: process.env.PNS_GTM_ID,
+        tabiRakuGtmId: process.env.TABIRAKU_GTM_ID,
       },
     },
   },
