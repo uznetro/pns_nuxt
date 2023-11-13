@@ -49,8 +49,6 @@ const copyToClipboard = (containerid) => {
 // }refs
 </script>
 
-<template></template>
-
 <style scoped lang="scss">
 /**datalistのコンテンツスタイル */
 #master {
