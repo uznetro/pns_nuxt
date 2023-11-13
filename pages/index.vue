@@ -1,7 +1,7 @@
 <script setup>
-// import { useTrackingTag } from '~/composables/useTrackingTag'
-// const { insertTracking } = useTrackingTag()
-// insertTracking()
+import { useTrackingTag } from '~/composables/useTrackingTag'
+const { insertTracking } = useTrackingTag()
+insertTracking()
 </script>
 
 <template>
