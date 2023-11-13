@@ -115,7 +115,10 @@ const onChange = () => {
         <td>月曜日</td>
         <td>チャージギフトあり</td>
         <td>
-          <Dialog label="aaaaaa" img="https://placehold.jp/450x600.png" />
+          <Dialog
+            label="aaaaaa"
+            img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1699001134/a2_dnvppw.png"
+          />
         </td>
       </tr>
       <tr>
@@ -143,7 +146,7 @@ const onChange = () => {
       <tr>
         <td>金曜日</td>
         <td>なし</td>
-        <td></td>
+        <td>末日フェス</td>
       </tr>
       <tr>
         <td>土曜日</td>
@@ -173,7 +176,11 @@ const onChange = () => {
         <td>月曜日</td>
         <td>チャージギフトあり</td>
         <td>
-          <Dialog label="aaaaaa" img="https://placehold.jp/450x600.png" />
+          <Dialog
+            label="aaaaaa"
+            width="100%"
+            img="https://placehold.jp/450x600.png"
+          />
         </td>
       </tr>
       <tr>
