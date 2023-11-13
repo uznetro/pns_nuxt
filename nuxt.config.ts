@@ -14,13 +14,13 @@ export default defineNuxtConfig({
       'process.env.DEBUG': false,
     },
   },
-  runtimeConfig: {
-    public: {
-      stage: process.env.STAGE,
+  // runtimeConfig: {
+  //   public: {
+  //     stage: process.env.STAGE,
 
-      tracking: {
-        tabiRakuGtmId: process.env.TABIRAKU_GTM_ID,
-      },
-    },
-  },
+  //     tracking: {
+  //       tabiRakuGtmId: process.env.TABIRAKU_GTM_ID,
+  //     },
+  //   },
+  // },
 })
