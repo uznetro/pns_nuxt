@@ -1,4 +1,0 @@
-// スペルチェック機能（cSpell）で問題ないのにエラー判定された文字列をここに追加する
-{
-  "ignoreWords": ["composables", "defineNuxtConfig"]
-}
