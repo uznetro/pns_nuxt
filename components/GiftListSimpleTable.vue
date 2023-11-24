@@ -117,7 +117,8 @@ const onChange = () => {
         <td>
           <Dialog
             label="aaaaaa"
-            img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1699001134/a2_dnvppw.png"
+            width="100%"
+            img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1700808981/dyynhusct66fntddvgdh.png"
           />
         </td>
       </tr>
