@@ -89,6 +89,27 @@ const onChange = () => {
     return data2
   }
 }
+
+const aceWeekManDayData = [
+  {
+    Charge1: '200ダイヤ',
+    Gift1: 'ダイヤ1500個、小型資源補給15個',
+  },
+  {
+    Charge2: '39,600ダイヤ',
+    Gift2: '限定コイン20枚、能力選択型補給50個、プロモエリート50個 etc',
+  },
+]
+const offWeekThursDayData = [
+  {
+    Charge1: '200ダイヤ',
+    Gift1: 'ダイヤ1500個、小型資源補給15個',
+  },
+  {
+    Charge1: '61,600ダイヤ',
+    Gift1: '能力選択箱Ⅱ3個、選択型プロモ70個、プロモエリート70個 etc',
+  },
+]
 </script>
 
 <template>
@@ -115,18 +136,18 @@ const onChange = () => {
         <td>月曜日</td>
         <td>チャージギフトあり</td>
         <td>
-          <Dialog
-            label="aaaaaa"
-            width="100%"
-            img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1700808981/dyynhusct66fntddvgdh.png"
-          />
+          <Dialog label="エスコマ月曜日" table-body :data="aceWeekManDayData" />
         </td>
       </tr>
       <tr>
         <td>火曜日</td>
         <td>チャージギフトあり</td>
         <td>
-          <Dialog label="bbbbbb" img="https://placehold.jp/300x200.png" />
+          <Dialog
+            width="100%"
+            label="エスコマ火曜"
+            img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1701245479/ace-tue-gift.png"
+          />
         </td>
       </tr>
       <tr>
@@ -139,6 +160,7 @@ const onChange = () => {
         <td>チャージギフトあり</td>
         <td>
           <Dialog
+            width="100%"
             label="エスコマ木曜日"
             img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1697700052/ace-thu-gift.png"
           />
@@ -178,7 +200,7 @@ const onChange = () => {
         <td>チャージギフトあり</td>
         <td>
           <Dialog
-            label="aaaaaa"
+            label="通常週月曜日"
             width="100%"
             img="https://placehold.jp/450x600.png"
           />
@@ -193,14 +215,14 @@ const onChange = () => {
         <td>水曜日</td>
         <td>チャージギフトあり</td>
         <td>
-          <Dialog label="bbbbbb" img="https://placehold.jp/300x200.png" />
+          <Dialog label="通常週水曜日" img="https://placehold.jp/300x200.png" />
         </td>
       </tr>
       <tr>
         <td>木曜日</td>
         <td>チャージギフトあり</td>
         <td>
-          <Dialog label="bbbbbb" img="https://placehold.jp/300x200.png" />
+          <Dialog label="通常週木曜日" table-body :data="offWeekThursDayData" />
         </td>
       </tr>
       <tr>
@@ -223,8 +245,6 @@ const onChange = () => {
 </template>
 
 <style lang="scss" scoped>
-//Tables
-
 //エスコマ・通常週の識別ハイライト
 .label {
   color: #ffffff;
