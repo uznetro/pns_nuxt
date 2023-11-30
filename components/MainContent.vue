@@ -10,14 +10,14 @@ const cards = [
   {
     title: 'Break Loose',
     lead: '獅子奮迅スケジュール',
-    src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
+    src: 'https://res.cloudinary.com/dtvanb4qz/image/upload/v1701331609/main-thumb-breakloose.png',
     flex: 6,
     link: '/break',
   },
   {
     title: 'Charge Gift',
     lead: 'チャージギフトスケジュール',
-    src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
+    src: 'https://res.cloudinary.com/dtvanb4qz/image/upload/v1701330874/main-thumb-gift.png',
     //src: require('@/assets/images/header.png'),
     flex: 6,
     link: '/gift',
@@ -25,14 +25,14 @@ const cards = [
   {
     title: 'Formation Simulator(test)',
     lead: '荒野編成システム',
-    src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
+    src: 'https://res.cloudinary.com/dtvanb4qz/image/upload/v1701333573/main-thumb-wk.png',
     flex: 6,
     link: '/',
   },
   {
     title: 'Event Database',
     lead: 'イベントボーダー',
-    src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
+    src: 'https://res.cloudinary.com/dtvanb4qz/image/upload/v1701333904/main-thumb-border.png',
     //src: require('@/assets/images/header.png'),
     flex: 6,
     link: 'event_db',
