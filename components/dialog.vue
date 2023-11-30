@@ -27,7 +27,7 @@ withDefaults(defineProps<Props>(), {
       <v-card-text>
         <p class="label">{{ label }}</p>
         <br />
-        <v-img max-width="280" :src="img" />
+        <v-img max-width="280" :src="img" class="dialog-img" />
         <div v-if="tableBody">
           <v-table class="gift-table">
             <thead>
@@ -99,6 +99,10 @@ withDefaults(defineProps<Props>(), {
 
 thead {
   background: #dadada;
+}
+
+.dialog-img {
+  border-radius: 5px;
 }
 .v-table--density-default > .v-table__wrapper > table > tbody > tr > th,
 .v-table--density-default > .v-table__wrapper > table > thead > tr > th,
