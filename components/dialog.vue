@@ -1,11 +1,10 @@
 <script setup lang="ts">
-import DialogTable from './DialogTable.vue'
 import { ref } from 'vue'
 const dialog = ref(false)
 
 export interface Props {
   label?: string
-  img?: string
+  img: string
   id: string
   tableBody?: boolean
   data: string
@@ -13,7 +12,6 @@ export interface Props {
 
 withDefaults(defineProps<Props>(), {
   label: 'Sample Component',
-  img: 'Sample URL',
   tableBody: false,
   tableCaption: 'header text',
   tableLoop: 1,
@@ -31,10 +29,10 @@ withDefaults(defineProps<Props>(), {
         <br />
         <v-img max-width="280" :src="img" />
         <div v-if="tableBody">
-          <v-table>
+          <v-table class="gift-table">
             <thead>
               <tr>
-                <th width="120px" class="text-left">Charge</th>
+                <th width="105px" class="text-left">Charge</th>
                 <th class="text-left">Gift</th>
               </tr>
             </thead>
@@ -65,6 +63,9 @@ withDefaults(defineProps<Props>(), {
 .v-dialog > .v-overlay__content > .v-card {
   align-items: center !important;
 }
+.v-dialog > .v-overlay__content > .v-card > .v-card-text {
+  padding: 16px 15px 10px;
+}
 .v-card button {
   margin: auto;
 }
@@ -75,7 +76,7 @@ withDefaults(defineProps<Props>(), {
 .attention-text {
   font-size: 10px;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 15px;
   display: block;
 }
 
@@ -91,12 +92,22 @@ withDefaults(defineProps<Props>(), {
 }
 
 // table
+.gift-table {
+  border-bottom: 1px solid #c2c2c2 !important;
+  font-size: 11px;
+}
+
 thead {
-  background: #f0f8ff;
+  background: #dadada;
 }
 .v-table--density-default > .v-table__wrapper > table > tbody > tr > th,
 .v-table--density-default > .v-table__wrapper > table > thead > tr > th,
 .v-table--density-default > .v-table__wrapper > table > tfoot > tr > th {
   height: 42px;
+  font-weight: bold;
+}
+.v-table--density-default > .v-table__wrapper > table > tbody > tr > td,
+.v-table--density-default > .v-table__wrapper > table > thead > tr > td {
+  padding: 8px 16px;
 }
 </style>

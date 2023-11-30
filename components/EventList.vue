@@ -61,7 +61,7 @@ const data = [
   },
   {
     name: '水曜',
-    Event: 'スタミナ ＆ AP ＆ 採集',
+    Event: 'スタミナ ＆ AP ＆ 採集 ＆ 模擬訓練',
     Memo: '',
   },
   {
@@ -100,7 +100,7 @@ const data2 = [
   },
   {
     name: '水曜',
-    Event: '装備',
+    Event: '装備 ＆ 結晶核',
     Memo: 'ラッキー７',
   },
   {
