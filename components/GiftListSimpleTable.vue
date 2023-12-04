@@ -6,39 +6,32 @@ const data = [
   {
     name: '月曜',
     event: 'チャージギフトあり',
-    img: 'https://chico-shikaku.com/wp-content/uploads/2019/05/ctito-1024x865.png',
     isActive: true,
   },
   {
     name: '火曜',
     event: 'チャージギフトあり',
-    img: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
     //img: require('@/assets/images/bnr.png'),
   },
   {
     name: '水曜',
     event: 'なし',
-    imgNA: 'N/A',
   },
   {
     name: '木曜',
     event: 'チャージギフトあり',
-    img: 'N/A',
   },
   {
     name: '金曜',
     event: 'なし',
-    imgNA: 'N/A',
   },
   {
     name: '土曜',
     event: 'なし',
-    imgNA: 'N/A',
   },
   {
     name: '日曜',
     event: 'なし',
-    imgNA: 'N/A',
   },
 ]
 
@@ -47,38 +40,31 @@ const data2 = [
   {
     name: '月曜',
     event: 'チャージギフトあり',
-    img: 'N/A',
     isActive: true,
   },
   {
     name: '火曜',
     event: 'なし',
-    imgNA: 'N/A',
   },
   {
     name: '水曜',
     event: 'チャージギフトあり',
-    img: 'N/A',
   },
   {
     name: '木曜',
     event: 'チャージギフトあり',
-    img: 'N/A',
   },
   {
     name: '金曜',
     event: 'なし',
-    imgNA: 'N/A',
   },
   {
     name: '土曜',
     event: 'なし',
-    imgNA: 'N/A',
   },
   {
     name: '日曜',
     event: 'なし',
-    imgNA: 'N/A',
   },
 ]
 
@@ -202,7 +188,7 @@ const offWeekThursDayData = [
           <Dialog
             label="通常週月曜日"
             width="100%"
-            img="https://placehold.jp/450x600.png"
+            img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1701672211/off-mon-gift.png"
           />
         </td>
       </tr>
