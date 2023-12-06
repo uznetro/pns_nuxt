@@ -122,7 +122,11 @@ const offWeekThursDayData = [
         <td>月曜日</td>
         <td>チャージギフトあり</td>
         <td>
-          <Dialog label="エスコマ月曜日" table-body :data="aceWeekManDayData" />
+          <Dialog
+            label="【エスコマ】月曜日"
+            table-body
+            :data="aceWeekManDayData"
+          />
         </td>
       </tr>
       <tr>
@@ -131,7 +135,7 @@ const offWeekThursDayData = [
         <td>
           <Dialog
             width="100%"
-            label="エスコマ火曜"
+            label="【エスコマ】火曜日"
             img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1701245479/ace-tue-gift.png"
           />
         </td>
@@ -147,7 +151,7 @@ const offWeekThursDayData = [
         <td>
           <Dialog
             width="100%"
-            label="エスコマ木曜日"
+            label="【エスコマ】木曜日"
             img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1697700052/ace-thu-gift.png"
           />
         </td>
@@ -186,7 +190,7 @@ const offWeekThursDayData = [
         <td>チャージギフトあり</td>
         <td>
           <Dialog
-            label="通常週月曜日"
+            label="【通常週】月曜日"
             width="100%"
             img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1701672211/off-mon-gift.png"
           />
@@ -194,21 +198,28 @@ const offWeekThursDayData = [
       </tr>
       <tr>
         <td>火曜日</td>
-        <td>なし</td>
-        <td></td>
+        <td>チャージギフトあり</td>
+        <td>
+          <Dialog
+            label="【通常週】水曜日"
+            img="https://placehold.jp/300x200.png"
+          />
+        </td>
       </tr>
       <tr>
         <td>水曜日</td>
-        <td>チャージギフトあり</td>
-        <td>
-          <Dialog label="通常週水曜日" img="https://placehold.jp/300x200.png" />
-        </td>
+        <td>なし</td>
+        <td></td>
       </tr>
       <tr>
         <td>木曜日</td>
         <td>チャージギフトあり</td>
         <td>
-          <Dialog label="通常週木曜日" table-body :data="offWeekThursDayData" />
+          <Dialog
+            label="【通常週】木曜日"
+            table-body
+            :data="offWeekThursDayData"
+          />
         </td>
       </tr>
       <tr>

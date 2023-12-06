@@ -50,8 +50,12 @@ withDefaults(defineProps<Props>(), {
         >
       </v-card-text>
       <v-card-actions>
-        <v-btn color="primary" variant="elevated" @click="dialog = false"
-          >Close Dialog</v-btn
+        <v-btn
+          width="140"
+          color="primary"
+          variant="elevated"
+          @click="dialog = false"
+          >Close</v-btn
         >
       </v-card-actions>
     </v-card>
