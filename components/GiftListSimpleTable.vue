@@ -201,8 +201,8 @@ const offWeekThursDayData = [
         <td>チャージギフトあり</td>
         <td>
           <Dialog
-            label="【通常週】水曜日"
-            img="https://placehold.jp/300x200.png"
+            label="【通常週】火曜日"
+            img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1701853308/off-tue-gift.png"
           />
         </td>
       </tr>
