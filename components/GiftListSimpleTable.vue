@@ -16,6 +16,10 @@ const aceWeekManDayData = [
     Charge3: '66,000ダイヤ',
     Gift2: '限定コイン20枚、能力選択型補給100個、プロモエリート100個 etc',
   },
+  {
+    Charge4: '99,000ダイヤ',
+    Gift2: '限定コイン30枚、能力選択型補給100個、プロモエリート100個 etc',
+  },
 ]
 const offWeekSatDayData = [
   {
@@ -23,7 +27,7 @@ const offWeekSatDayData = [
     Gift1: 'ダイヤ1500個、小型資源補給15個',
   },
   {
-    Charge1: '61,600ダイヤ',
+    Charge2: '61,600ダイヤ',
     Gift1: '能力選択箱Ⅱ3個、選択型プロモ70個、プロモエリート70個 etc',
   },
 ]
