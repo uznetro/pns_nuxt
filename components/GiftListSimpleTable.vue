@@ -1,81 +1,8 @@
 <script setup>
 import { ref } from 'vue'
-
-const data = [
-  //エースコマンダー
-  {
-    name: '月曜',
-    event: 'チャージギフトあり',
-    isActive: true,
-  },
-  {
-    name: '火曜',
-    event: 'チャージギフトあり',
-    //img: require('@/assets/images/bnr.png'),
-  },
-  {
-    name: '水曜',
-    event: 'なし',
-  },
-  {
-    name: '木曜',
-    event: 'チャージギフトあり',
-  },
-  {
-    name: '金曜',
-    event: 'なし',
-  },
-  {
-    name: '土曜',
-    event: 'なし',
-  },
-  {
-    name: '日曜',
-    event: 'なし',
-  },
-]
-
-const data2 = [
-  //通常週
-  {
-    name: '月曜',
-    event: 'チャージギフトあり',
-    isActive: true,
-  },
-  {
-    name: '火曜',
-    event: 'なし',
-  },
-  {
-    name: '水曜',
-    event: 'チャージギフトあり',
-  },
-  {
-    name: '木曜',
-    event: 'チャージギフトあり',
-  },
-  {
-    name: '金曜',
-    event: 'なし',
-  },
-  {
-    name: '土曜',
-    event: 'なし',
-  },
-  {
-    name: '日曜',
-    event: 'なし',
-  },
-]
-
 const toggleValue = ref(false)
-const onChange = () => {
-  console.log('Switch value:', toggleValue.value)
-  if (toggleValue.value === true) {
-    return data2
-  }
-}
 
+// トグル内のデータ
 const aceWeekManDayData = [
   {
     Charge1: '200ダイヤ',
@@ -85,8 +12,12 @@ const aceWeekManDayData = [
     Charge2: '39,600ダイヤ',
     Gift2: '限定コイン20枚、能力選択型補給50個、プロモエリート50個 etc',
   },
+  {
+    Charge3: '66,000ダイヤ',
+    Gift2: '限定コイン20枚、能力選択型補給100個、プロモエリート100個 etc',
+  },
 ]
-const offWeekThursDayData = [
+const offWeekSatDayData = [
   {
     Charge1: '200ダイヤ',
     Gift1: 'ダイヤ1500個、小型資源補給15個',
@@ -134,7 +65,6 @@ const offWeekThursDayData = [
         <td>チャージギフトあり</td>
         <td>
           <Dialog
-            width="100%"
             label="【エスコマ】火曜日"
             img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1701245479/ace-tue-gift.png"
           />
@@ -191,7 +121,6 @@ const offWeekThursDayData = [
         <td>
           <Dialog
             label="【通常週】月曜日"
-            width="100%"
             img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1701672211/off-mon-gift.png"
           />
         </td>
@@ -213,24 +142,29 @@ const offWeekThursDayData = [
       </tr>
       <tr>
         <td>木曜日</td>
+        <td>なし</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>金曜日</td>
         <td>チャージギフトあり</td>
         <td>
           <Dialog
-            label="【通常週】木曜日"
-            table-body
-            :data="offWeekThursDayData"
+            label="【通常週】火曜日"
+            img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1702267948/off-fri-gift.png"
           />
         </td>
       </tr>
       <tr>
-        <td>金曜日</td>
-        <td>なし</td>
-        <td></td>
-      </tr>
-      <tr>
         <td>土曜日</td>
-        <td>なし</td>
-        <td></td>
+        <td>チャージギフトあり</td>
+        <td>
+          <Dialog
+            label="【通常週】土曜日"
+            table-body
+            :data="offWeekSatDayData"
+          />
+        </td>
       </tr>
       <tr>
         <td>日曜日</td>
