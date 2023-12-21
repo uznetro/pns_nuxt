@@ -51,7 +51,7 @@ const data = [
   },
   {
     name: '',
-    Event: 'Bioenhancer',
+    Event: 'Bioenhancer & Cores',
   },
   {
     name: '1:00〜8:55',
