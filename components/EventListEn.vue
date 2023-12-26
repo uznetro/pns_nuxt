@@ -91,7 +91,7 @@ const data2 = [
   },
   {
     name: 'Wed',
-    Event: 'Gear Upgrade',
+    Event: 'Gear  & Core',
     Memo: 'Joy777',
   },
   {

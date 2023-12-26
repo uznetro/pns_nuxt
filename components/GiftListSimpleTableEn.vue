@@ -1,98 +1,40 @@
 <script setup>
 import { ref } from 'vue'
-
-const data = [
-  //エスコマ週
-  {
-    name: 'Mon',
-    event: 'Charge Gift Available!',
-    img: 'N/A',
-    isActive: true,
-  },
-  {
-    name: 'Tue',
-    event: 'Charge Gift Available!',
-    img: 'N/A',
-  },
-  {
-    name: 'Wed',
-    event: 'No!!!',
-    imgNA: 'N/A',
-  },
-  {
-    name: 'Thu',
-    event: 'Charge Gift Available!',
-    img: 'N/A',
-  },
-  {
-    name: 'Fri',
-    event: 'No!!!',
-    imgNA: 'N/A',
-  },
-  {
-    name: 'Sat',
-    event: 'No!!!',
-    imgNA: 'N/A',
-  },
-  {
-    name: 'Sun',
-    event: 'No!!!',
-    imgNA: 'N/A',
-  },
-]
-
-const data2 = [
-  //通常週
-  {
-    name: 'Mon',
-    event: 'Charge Gift Available!',
-    img: 'N/A',
-    isActive: true,
-  },
-  {
-    name: 'Tue',
-    event: 'No!!!',
-    imgNA: 'N/A',
-  },
-  {
-    name: 'Wed',
-    event: 'Charge Gift Available!',
-    img: 'N/A',
-  },
-  {
-    name: 'Thu',
-    event: 'Charge Gift Available!',
-    img: 'N/A',
-  },
-  {
-    name: 'Fri',
-    event: 'No!!!',
-    imgNA: 'N/A',
-  },
-  {
-    name: 'Sat',
-    event: 'No!!!',
-    imgNA: 'N/A',
-  },
-  {
-    name: 'Sun',
-    event: 'No!!!',
-    imgNA: 'N/A',
-  },
-]
-
 const toggleValue = ref(false)
-const onChange = () => {
-  console.log('Switch value:', toggleValue.value)
-  if (toggleValue.value === true) {
-    return data2
-  }
-}
 
-const dialog = ref(false)
+// トグル内のデータ
+const aceWeekManDayData = [
+  {
+    Charge1: '200 Diamond',
+    Gift1: '1500 Diamond, 15 Lesser RSS BOX',
+  },
+  {
+    Charge2: '39,600 Diamond',
+    Gift2: '20 TimedRecruitCoin, 50 MightChoiceBox、50 PromoteBoxⅡ, etc',
+  },
+  {
+    Charge3: '66,000 Diamond',
+    Gift2: '20 TimedRecruitCoin, 100 MightChoiceBox、100 PromoteBoxⅡ, etc',
+  },
+  {
+    Charge4: '99,000 Diamond',
+    Gift2: '30 TimedRecruitCoin、100 MightChoiceBox、100 PromoteBoxⅡ, etc',
+  },
+]
+const offWeekSatDayData = [
+  {
+    Charge1: '200 Diamond',
+    Gift1: '1500 Diamond、15 LesserRssBox',
+  },
+  {
+    Charge2: '61,600 Diamond',
+    Gift1: '3 PowerChoiceChest、70 PromoteBox、70 PromoteBoxⅡ, etc',
+  },
+]
 </script>
 
 <template>
+  <!-- <p>{{ gs.values }}</p> -->
   <v-switch
     v-model="toggleValue"
     prepend-icon="mdi-weather-night"
@@ -111,35 +53,52 @@ const dialog = ref(false)
       </tr>
     </thead>
     <tbody>
-      <tr v-for="item in data" :key="item.name">
-        <td>{{ item.name }}</td>
-        <td>{{ item.event }}</td>
-        <td v-if="item.img">
-          <v-dialog v-model="dialog" :retain-focus="false" width="auto">
-            <template #activator="{ props }">
-              <v-btn size="small" color="primary" v-bind="props">
-                Detail
-              </v-btn>
-            </template>
-
-            <v-card :retain-focus="false">
-              <v-card-text>
-                under development
-                <br />Gift image will be set here
-                <!-- <v-img
-                  src="https://res.cloudinary.com/dtvanb4qz/image/upload/v1695287857/s7uquku0oocar2u5oari.png"
-                /> -->
-                <!-- <v-img :src="item.img" /> -->
-              </v-card-text>
-              <v-card-actions>
-                <v-btn color="primary" block @click="dialog = false"
-                  >Close Dialog</v-btn
-                >
-              </v-card-actions>
-            </v-card>
-          </v-dialog>
+      <tr>
+        <td>Mon</td>
+        <td>Charge Gift Available!</td>
+        <td>
+          <Dialog label="[AceWeek] Mon" table-body :data="aceWeekManDayData" />
         </td>
-        <td v-if="item.imgNA">N/A</td>
+      </tr>
+      <tr>
+        <td>Tue</td>
+        <td>Charge Gift Available!</td>
+        <td>
+          <Dialog
+            label="[AceWeek] Tue"
+            img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1703578656/ace-tue-gift-eng.png"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Wed</td>
+        <td>No</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Thu</td>
+        <td>Charge Gift Available!</td>
+        <td>
+          <Dialog
+            label="[AceWeek] Thu"
+            img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1697700053/ace-thu-gift-eng.png"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Fri</td>
+        <td>No</td>
+        <td>DoomFest</td>
+      </tr>
+      <tr>
+        <td>土曜日</td>
+        <td>No</td>
+        <td>DoomFest</td>
+      </tr>
+      <tr>
+        <td>日曜日</td>
+        <td>No</td>
+        <td>DoomFest</td>
       </tr>
     </tbody>
   </v-table>
@@ -155,36 +114,63 @@ const dialog = ref(false)
       </tr>
     </thead>
     <tbody>
-      <tr v-for="item in data2" :key="item.name">
-        <td>{{ item.name }}</td>
-        <td>{{ item.event }}</td>
-        <td v-if="item.img">
-          <v-dialog v-model="dialog" width="auto">
-            <template #activator="{ props }">
-              <v-btn size="small" outlined color="primary" v-bind="props">
-                Detail
-              </v-btn>
-            </template>
-
-            <v-card>
-              <v-card-text>
-                under development <br />Gift image will be set here</v-card-text
-              >
-              <v-card-actions>
-                <v-btn color="primary" block @click="dialog = false"
-                  >Close Dialog</v-btn
-                >
-              </v-card-actions>
-            </v-card>
-          </v-dialog>
+      <tr>
+        <td>Mon</td>
+        <td>Charge Gift Available!</td>
+        <td>
+          <Dialog
+            label="[OffWeek] Mon"
+            img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1701672218/off-mon-gift-eng.png"
+          />
         </td>
-        <td v-if="item.imgNA">N/A</td>
+      </tr>
+      <tr>
+        <td>火曜日</td>
+        <td>Charge Gift Available!</td>
+        <td>
+          <Dialog
+            label="[OffWeek] Mon"
+            img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1701853308/off-tue-gift-eng.png"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>水曜日</td>
+        <td>No</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>木曜日</td>
+        <td>No</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>金曜日</td>
+        <td>Charge Gift Available!</td>
+        <td>
+          <Dialog
+            label="[OffWeek] Mon"
+            img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1702267948/off-fri-gift.png"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>土曜日</td>
+        <td>Charge Gift Available!</td>
+        <td>
+          <Dialog label="[OffWeek] Mon" table-body :data="offWeekSatDayData" />
+        </td>
+      </tr>
+      <tr>
+        <td>日曜日</td>
+        <td>No</td>
+        <td></td>
       </tr>
     </tbody>
   </v-table>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 //エスコマ・通常週の識別ハイライト
 .label {
   color: #ffffff;

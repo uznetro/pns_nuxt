@@ -32,7 +32,7 @@ const cards = [
   {
     title: 'Event Database',
     lead: 'イベントボーダー',
-    src: 'https://res.cloudinary.com/dtvanb4qz/image/upload/v1701333904/main-thumb-border.png',
+    src: 'https://res.cloudinary.com/dtvanb4qz/image/upload/v1703582115/main-thumb-border.png',
     //src: require('@/assets/images/header.png'),
     flex: 6,
     link: 'event_db',
