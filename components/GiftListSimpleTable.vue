@@ -154,7 +154,7 @@ const offWeekSatDayData = [
         <td>チャージギフトあり</td>
         <td>
           <Dialog
-            label="【通常週】火曜日"
+            label="【通常週】金曜日"
             img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1702267948/off-fri-gift.png"
           />
         </td>
