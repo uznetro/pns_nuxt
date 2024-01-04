@@ -8,6 +8,7 @@ export interface Props {
   id: string
   tableBody?: boolean
   data: string
+  note: string
 }
 
 withDefaults(defineProps<Props>(), {
@@ -45,6 +46,10 @@ withDefaults(defineProps<Props>(), {
             </tbody>
           </v-table>
         </div>
+        <span v-if="note" class="note-text">
+          [Note]<br />
+          {{ note }}</span
+        >
         <span class="attention-text"
           >※チャージ数、ギフト内容は変更となる場合があります</span
         >
@@ -77,10 +82,19 @@ withDefaults(defineProps<Props>(), {
   width: 100%;
 }
 
-.attention-text {
+.note-text {
   font-size: 10px;
   text-align: center;
   margin-top: 15px;
+  padding: 5px;
+  display: block;
+  border: 1px solid #aaa;
+}
+.attention-text {
+  font-size: 10px;
+  padding: 5px;
+  text-align: center;
+  margin-top: 10px;
   display: block;
 }
 

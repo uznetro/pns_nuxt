@@ -3,7 +3,9 @@ import { ref } from 'vue'
 const toggleValue = ref(false)
 
 // トグル内のデータ
+// エスコマ週
 const aceWeekManDayData = [
+  // エスコマ週月曜日
   {
     Charge1: '200ダイヤ',
     Gift1: 'ダイヤ1500個、小型資源補給15個',
@@ -21,7 +23,24 @@ const aceWeekManDayData = [
     Gift2: '限定コイン30枚、能力選択型補給100個、プロモエリート100個 etc',
   },
 ]
+// 通常週
+const offWeekThuDayData = [
+  // 通常週木曜日（隔週で有無っぽい）
+  {
+    Charge1: '200ダイヤ',
+    Gift1: 'ダイヤ1500個、小型資源補給15個',
+  },
+  {
+    Charge1: '440ダイヤ',
+    Gift1: '能力選択箱2個、ダイヤ1000個、小型資源補給30個',
+  },
+  {
+    Charge2: '39,600ダイヤ',
+    Gift2: '能力選択箱Ⅱ2個、能力選択型補給50個、プロモエリート50個 etc',
+  },
+]
 const offWeekSatDayData = [
+  // 通常週土曜日
   {
     Charge1: '200ダイヤ',
     Gift1: 'ダイヤ1500個、小型資源補給15個',
@@ -146,8 +165,15 @@ const offWeekSatDayData = [
       </tr>
       <tr>
         <td>木曜日</td>
-        <td>なし</td>
-        <td></td>
+        <td>あり（注意！隔週で有無）</td>
+        <td>
+          <Dialog
+            label="【通常週】木曜日"
+            note="2024/1/4 ギフト有"
+            table-body
+            :data="offWeekThuDayData"
+          />
+        </td>
       </tr>
       <tr>
         <td>金曜日</td>
