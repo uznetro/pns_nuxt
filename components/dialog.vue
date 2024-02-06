@@ -89,6 +89,7 @@ withDefaults(defineProps<Props>(), {
   padding: 5px;
   display: block;
   border: 1px solid #aaa;
+  white-space: pre-line;
 }
 .attention-text {
   font-size: 10px;
