@@ -170,7 +170,7 @@ const offWeekSatDayData = [
           <Dialog
             label="【通常週】木曜日"
             note="2024/1/4 ギフト有
-            2024/1/** ギフト**"
+            2024/2/15 ギフト有"
             table-body
             :data="offWeekThuDayData"
           />
