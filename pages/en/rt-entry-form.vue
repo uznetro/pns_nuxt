@@ -215,13 +215,13 @@ const checkInput = () => {
       </v-form>
     </v-container>
   </div>
+  <Footer />
 </template>
 
 <style lang="scss" scoped>
 .container-wrap {
-  background-image: url(https://shinanotech.co.jp/wp/wp-content/themes/delaunay/assets/image/common/bg-noise.png);
+  background: url('../../assets/images/leagues/bg.png');
   background-color: rgba(255, 255, 255, 0.8);
-  background-blend-mode: lighten;
   background-repeat: repeat;
 }
 .home-hero {
@@ -248,7 +248,7 @@ const checkInput = () => {
   left: 50%;
   transform: translate(-50%, -50%);
   img {
-    max-width: 360px;
+    max-width: 370px;
   }
 }
 .hero-sub-title {
@@ -263,5 +263,13 @@ const checkInput = () => {
 
 .form-wrap {
   margin-top: 20px;
+}
+</style>
+
+<style>
+.form-wrap {
+  .v-field {
+    background: rgba(255, 255, 255, 0.25);
+  }
 }
 </style>
