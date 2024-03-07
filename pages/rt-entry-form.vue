@@ -233,7 +233,10 @@ const checkInput = () => {
   background-image: url(https://shinanotech.co.jp/wp/wp-content/themes/delaunay/assets/image/common/bg-noise.png);
   background-color: rgba(255, 255, 255, 0.8);
   background-blend-mode: lighten;
-  background-repeat: repeat;
+  // background-repeat: repeat; // iphoneでblendMode効かないので
+  @media only screen and (min-width: 600px) {
+    background-repeat: repeat;
+  }
 }
 .home-hero {
   margin-top: 64px; // v-main使うとローディング時レイアウトシフト発生するので
