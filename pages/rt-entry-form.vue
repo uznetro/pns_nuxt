@@ -68,10 +68,14 @@ const checkInput = () => {
         <v-row>
           <v-col class="home-hero__content-text">
             <p class="hero-title">
-              <img src="../assets/images/leagues/title.png" />
+              <img
+                src="https://res.cloudinary.com/dtvanb4qz/image/upload/v1710071357/rt-form/title_wf8mfd.png"
+              />
             </p>
             <p class="hero-sub-title">
-              <img src="../assets/images/leagues/sub-title.png" />
+              <img
+                src="https://res.cloudinary.com/dtvanb4qz/image/upload/v1710071357/rt-form/sub-title_txswxr.png"
+              />
             </p>
           </v-col>
         </v-row>
@@ -230,16 +234,15 @@ const checkInput = () => {
 
 <style lang="scss" scoped>
 .container-wrap {
-  background: url('../assets/images/leagues/bg.png');
+  background: url('https://res.cloudinary.com/dtvanb4qz/image/upload/v1710071356/rt-form/bg_s26aez.png');
   background-color: rgba(255, 255, 255, 0.8);
-  //background-blend-mode: lighten;
   background-repeat: repeat;
 }
 .home-hero {
   margin-top: 64px; // v-main使うとローディング時レイアウトシフト発生するので
 }
 .home-hero__content {
-  background: url('../assets/images/leagues/hero.png');
+  background: url('https://res.cloudinary.com/dtvanb4qz/image/upload/v1710072578/rt-form/hero_v8hji1.png');
   background-size: cover;
   background-position: center center;
   width: 100%;

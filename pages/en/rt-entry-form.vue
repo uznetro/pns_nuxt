@@ -67,10 +67,14 @@ const checkInput = () => {
         <v-row>
           <v-col class="home-hero__content-text">
             <p class="hero-title">
-              <img src="../../assets/images/leagues/title-en.png" />
+              <img
+                src="https://res.cloudinary.com/dtvanb4qz/image/upload/v1710071367/rt-form/title-en_rvvesr.png"
+              />
             </p>
             <p class="hero-sub-title">
-              <img src="../../assets/images/leagues/sub-title-en.png" />
+              <img
+                src="https://res.cloudinary.com/dtvanb4qz/image/upload/v1710071366/rt-form/sub-title-en_qmpa5a.png"
+              />
             </p>
           </v-col>
         </v-row>
@@ -220,7 +224,7 @@ const checkInput = () => {
 
 <style lang="scss" scoped>
 .container-wrap {
-  background: url('../../assets/images/leagues/bg.png');
+  background: url('https://res.cloudinary.com/dtvanb4qz/image/upload/v1710071356/rt-form/bg_s26aez.png');
   background-color: rgba(255, 255, 255, 0.8);
   background-repeat: repeat;
 }
