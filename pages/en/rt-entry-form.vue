@@ -151,9 +151,9 @@ const checkInput = () => {
         <v-text-field
           color="primary"
           variant="outlined"
-          label="Total number of troops in T11"
+          label="Total number of troop in T11"
           type="number"
-          placeholder="Enter your troops in T11"
+          placeholder="Enter your troop in T11"
           name="entry.37680000"
           :rules="numberRules"
         />
@@ -162,9 +162,9 @@ const checkInput = () => {
         <v-text-field
           color="primary"
           variant="outlined"
-          label="Total number of troops in T12"
+          label="Total number of troop in T12"
           type="number"
-          placeholder="Enter your troops in T12"
+          placeholder="Enter your troop in T12"
           name="entry.683225459"
           :rules="numberRules"
         />
@@ -173,9 +173,9 @@ const checkInput = () => {
         <v-text-field
           color="primary"
           variant="outlined"
-          label="Total number of troops in T13"
+          label="Total number of troop in T13"
           type="number"
-          placeholder="Enter your troops in T13"
+          placeholder="Enter your troop in T13"
           name="entry.1574216805"
           :rules="numberRules"
         />
@@ -184,9 +184,9 @@ const checkInput = () => {
         <v-text-field
           color="primary"
           variant="outlined"
-          label="Troops Size"
+          label="Troop Size"
           type="number"
-          placeholder="Enter your troops size"
+          placeholder="Enter your troop size"
           name="entry.1531579332"
           :rules="marchRules"
         />

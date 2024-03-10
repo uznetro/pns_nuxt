@@ -174,7 +174,7 @@ const checkInput = () => {
         <v-text-field
           color="primary"
           variant="outlined"
-          label="T13部隊の兵数（T13）"
+          label="T13部隊の兵数"
           type="number"
           placeholder="T13の部隊総数を入れてね"
           name="entry.1574216805"
