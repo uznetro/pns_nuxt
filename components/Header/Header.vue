@@ -100,7 +100,7 @@ const show = ref(false) // ドロワーの初期状態
         <div>
           <div class="text-h6 mb-1">Notes.</div>
           <div class="text-caption">
-            本サイトは公式とは一切関係ございません。公式サイトへのお問い合わせはお控えください。
+            本サイトは公式とは一切関係ございません。公式へのお問い合わせはお控えください。
           </div>
         </div>
       </v-card-item>
@@ -139,5 +139,9 @@ const show = ref(false) // ドロワーの初期状態
 
 .attention-card {
   margin: 8px;
+}
+
+.v-card-item {
+  padding: 0.625rem 1rem 0;
 }
 </style>
