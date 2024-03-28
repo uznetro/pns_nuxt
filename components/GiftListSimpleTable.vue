@@ -194,7 +194,7 @@ const offWeekSatDayData = [
           <Dialog
             label="【通常週】土曜日"
             note="2024/1/20  チャジリベ開催
-            2024/1/17  チャジリベ開催"
+            2024/2/17  チャジリベ開催"
             table-body
             :data="offWeekSatDayData"
           />
