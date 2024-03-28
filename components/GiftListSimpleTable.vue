@@ -165,12 +165,13 @@ const offWeekSatDayData = [
       </tr>
       <tr>
         <td>木曜日</td>
-        <td>あり（不定期？）</td>
+        <td>あり</td>
         <td>
           <Dialog
             label="【通常週】木曜日"
-            note="2024/2/15 ギフト有
-            2024/2/29 ギフト有"
+            note="2024/2/29 ギフト有
+            2024/3/14 ギフト有
+            2024/3/28 ギフト有"
             table-body
             :data="offWeekThuDayData"
           />
@@ -192,7 +193,8 @@ const offWeekSatDayData = [
         <td>
           <Dialog
             label="【通常週】土曜日"
-            note="2024/1/20  チャジリベ開催"
+            note="2024/1/20  チャジリベ開催
+            2024/1/17  チャジリベ開催"
             table-body
             :data="offWeekSatDayData"
           />
