@@ -39,17 +39,17 @@ const offWeekThuDayData = [
     Gift2: '能力選択箱Ⅱ2個、能力選択型補給50個、プロモエリート50個 etc',
   },
 ]
-const offWeekSatDayData = [
-  // 通常週土曜日
-  {
-    Charge1: '200ダイヤ',
-    Gift1: 'ダイヤ1500個、小型資源補給15個',
-  },
-  {
-    Charge2: '61,600ダイヤ',
-    Gift1: '能力選択箱Ⅱ3個、選択型プロモ70個、プロモエリート70個 etc',
-  },
-]
+// const offWeekSatDayData = [
+//   // 通常週土曜日
+//   {
+//     Charge1: '200ダイヤ',
+//     Gift1: 'ダイヤ1500個、小型資源補給15個',
+//   },
+//   {
+//     Charge2: '61,600ダイヤ',
+//     Gift1: '能力選択箱Ⅱ3個、選択型プロモ70個、プロモエリート70個 etc',
+//   },
+// ]
 </script>
 
 <template>
@@ -195,8 +195,6 @@ const offWeekSatDayData = [
             label="【通常週】土曜日"
             note="2024/1/20  チャジリベ開催
             2024/2/17  チャジリベ開催"
-            table-body
-            :data="offWeekSatDayData"
           />
         </td>
       </tr>

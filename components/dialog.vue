@@ -85,7 +85,6 @@ withDefaults(defineProps<Props>(), {
 .note-text {
   font-size: 10px;
   text-align: center;
-  margin-top: 15px;
   padding: 5px;
   display: block;
   border: 1px solid #aaa;
@@ -114,6 +113,7 @@ withDefaults(defineProps<Props>(), {
 .gift-table {
   border-bottom: 1px solid #c2c2c2 !important;
   font-size: 11px;
+  margin-bottom: 20px;
 }
 
 thead {
