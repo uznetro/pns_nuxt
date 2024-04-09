@@ -103,7 +103,6 @@ const offWeekThuDayData = [
         <td>チャージギフトあり</td>
         <td>
           <Dialog
-            width="100%"
             label="【エスコマ】木曜日"
             img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1697700052/ace-thu-gift.png"
           />
