@@ -199,7 +199,7 @@ const offWeekThuDayData = [
       </tr>
       <tr>
         <td>土曜日</td>
-        <td>なし</td>
+        <td>なし(チャジリベ不定期開催)</td>
         <td>
           <Dialog
             label="【通常週】土曜日"
