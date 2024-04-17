@@ -6,7 +6,7 @@ import { useRoute, useRouter } from 'vue-router'
 
 const route = useRoute()
 const router = useRouter()
-const toggleValue = ref(route.query.myParam === '1')
+const toggleValue = ref(route.query.param === '1')
 
 const onChange = () => {
   const paramValue = toggleValue.value ? '1' : '0'
