@@ -47,12 +47,12 @@ const data = [
   },
   {
     name: 'Tue',
-    Event: 'Build & Research',
+    Event: 'Build/Research',
     Memo: '',
   },
   {
     name: 'Wed',
-    Event: 'Stam & AP & Gather',
+    Event: 'Stam/AP/Gather',
     Memo: '',
   },
   {
@@ -62,17 +62,17 @@ const data = [
   },
   {
     name: 'Fri',
-    Event: 'Bioenhancer & Refiner',
+    Event: 'Bioenhancer/Refiner',
     Memo: '',
   },
   {
     name: 'Sat',
-    Event: 'Promote & Enhance & Remodeling',
+    Event: 'Promote/Enhance/Remodeling',
     Memo: '',
   },
   {
     name: 'Sun',
-    Event: 'Build & Train & Research',
+    Event: 'Build/Train/Research',
     Memo: '',
   },
 ]
@@ -86,22 +86,22 @@ const data2 = [
   },
   {
     name: 'Tue',
-    Event: 'Build & Train & Research',
+    Event: 'Build/Train/Research',
     Memo: 'Joy777',
   },
   {
     name: 'Wed',
-    Event: 'Gear  & Core',
+    Event: 'Gear  & Core/Curio',
     Memo: 'Joy777',
   },
   {
     name: 'Thu',
-    Event: 'Nova & Module',
+    Event: 'Nova/Module',
     Memo: '',
   },
   {
     name: 'Fri',
-    Event: 'Glory & Bio',
+    Event: 'Glory/Bio',
     Memo: '',
   },
   {
@@ -111,7 +111,7 @@ const data2 = [
   },
   {
     name: 'Sun',
-    Event: 'Diamond & Chip & Cube',
+    Event: 'Diamond & Chip/Cube',
     Memo: '',
   },
 ]
