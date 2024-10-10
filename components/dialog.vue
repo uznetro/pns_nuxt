@@ -50,9 +50,13 @@ withDefaults(defineProps<Props>(), {
           [Note]<br />
           {{ note }}</span
         >
-        <span class="attention-text"
-          >※チャージ数、ギフト内容は変更となる場合があります</span
-        >
+        <span class="attention-text">
+          {{
+            $route.path.includes('/en')
+              ? '*Please note that the number of charges and gift content are subject to change.'
+              : '※チャージ数、ギフト内容は変更となる場合があります'
+          }}
+        </span>
       </v-card-text>
       <v-card-actions>
         <v-btn
