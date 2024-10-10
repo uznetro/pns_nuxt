@@ -91,12 +91,12 @@ const offWeekSatDayData = [
         <td>DoomFest</td>
       </tr>
       <tr>
-        <td>土曜日</td>
+        <td>Sat</td>
         <td>No</td>
         <td>DoomFest</td>
       </tr>
       <tr>
-        <td>日曜日</td>
+        <td>Sun</td>
         <td>No</td>
         <td>DoomFest</td>
       </tr>
@@ -125,7 +125,7 @@ const offWeekSatDayData = [
         </td>
       </tr>
       <tr>
-        <td>火曜日</td>
+        <td>Tue</td>
         <td>Charge Gift Available!</td>
         <td>
           <Dialog
@@ -135,17 +135,17 @@ const offWeekSatDayData = [
         </td>
       </tr>
       <tr>
-        <td>水曜日</td>
+        <td>Wed</td>
         <td>No</td>
         <td></td>
       </tr>
       <tr>
-        <td>木曜日</td>
+        <td>Thu</td>
         <td>No</td>
         <td></td>
       </tr>
       <tr>
-        <td>金曜日</td>
+        <td>Fri</td>
         <td>Charge Gift Available!</td>
         <td>
           <Dialog
@@ -155,14 +155,14 @@ const offWeekSatDayData = [
         </td>
       </tr>
       <tr>
-        <td>土曜日</td>
+        <td>Sat</td>
         <td>Charge Gift Available!</td>
         <td>
           <Dialog label="[OffWeek] Mon" table-body :data="offWeekSatDayData" />
         </td>
       </tr>
       <tr>
-        <td>日曜日</td>
+        <td>Sun</td>
         <td>No</td>
         <td></td>
       </tr>
