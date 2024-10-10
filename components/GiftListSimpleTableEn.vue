@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 const toggleValue = ref(false)
 
-// トグル内のデータ
+// ダイアログ内のデータ
 const aceWeekManDayData = [
   {
     Charge1: '200 Diamond',

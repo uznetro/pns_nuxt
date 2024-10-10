@@ -13,7 +13,7 @@ const onChange = () => {
   router.push({ query: { param: paramValue } })
 }
 
-// トグル内のデータ
+// ダイアログ内のデータ
 // エスコマ週
 const aceWeekManDayData = [
   // エスコマ週月曜日
