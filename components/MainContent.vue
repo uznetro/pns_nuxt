@@ -23,11 +23,13 @@ const cards = [
     link: '/gift',
   },
   {
-    title: 'Formation Simulator(test)',
-    lead: '荒野編成システム',
-    src: 'https://res.cloudinary.com/dtvanb4qz/image/upload/v1701333573/main-thumb-wk.png',
+    title: 'Recruit Info',
+    lead: '移民・メンバー募集',
+    src: 'https://res.cloudinary.com/dtvanb4qz/image/upload/v1729217642/asa_divofr.jpg',
+    //src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
+    //src: 'https://res.cloudinary.com/dtvanb4qz/image/upload/v1701333573/main-thumb-wk.png',
     flex: 6,
-    link: '/',
+    link: '/recruit',
   },
   {
     title: 'Event Database',

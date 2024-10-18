@@ -20,15 +20,14 @@ const items = [
     link: '/en/break',
   },
   {
-    title: 'Charge Gift',
-    subtitle: 'Charge Gift Schedule',
+    title: 'Top Up Gift',
+    subtitle: 'Top Up Gift Schedule',
     icon: 'mdi-gift-open-outline',
     link: '/en/gift',
   },
   {
     title: 'Recruit Info',
     subtitle: 's723 is recruiting members',
-    src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
     icon: 'mdi-gamepad-circle-right',
     link: '/recruit',
   },

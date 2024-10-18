@@ -13,7 +13,7 @@ insertTracking()
       <img src="~assets/images/bnr.png" alt="" /> -->
       <MainContent />
     </v-main>
-    <PromotionBanner />
+    <!-- <PromotionBanner /> -->
     <Footer />
   </v-app>
 </template>
