@@ -1,42 +1,44 @@
 <script setup>
 const messages = [
   {
-    title: '募集条件',
-    lead: 'hq38（T12）以上！浄水などのイベントにアクティブな方歓迎',
-    caption: 'ギルド内にhq40以上が多数在籍！（ASAのR5は歴戦17億）',
+    title: 'Requirements',
+    lead: 'HQ38 (T12) or higher! Players who are active in events like SvS are welcome.',
+    caption:
+      'Many HQ40+ commanders in the alliance! (Our ASA R5 has 1.7 billion Highest Might)',
     color: 'pink',
   },
   {
-    title: 'ビジョン',
-    lead: '浄水リーグや極地などSvSイベント楽しみたいメンバーが集まっています',
-    caption: 'SvSが好きなら、ここはあなたにぴったりの場所かもしれません',
+    title: 'Our Vision',
+    lead: 'We are a group of members who enjoy SvS events',
+    caption: 'If you like SvS events, this may be the perfect place for you!',
     color: 'deep-purple-lighten-1',
   },
 
   {
-    title: '概要',
-    lead: 'アジア多国籍ギルドです',
+    title: 'Overview',
+    lead: 'We are a multinational Asian alliance',
     caption:
-      'ギルドを立ち上げたばかりです。色々大変ですが一緒にギルドを作りましょう',
+      'Newly formed alliance. There will be challenges, but build a alliance together',
     color: 'pink',
   },
   {
-    title: 'PRポイント',
-    lead: 's723の戦力TOPギルド！個人的に新興国はイベントやコロシアムなどすごく緩い印象です',
+    title: 'Selling Points',
+    lead: 'We are the top alliance in S723 in terms! This newer state tends to be easier and less competitive when it comes to events and the arena',
     caption:
-      'ギルマスはとても温和で優しいです！強国から経験者が多数集まっていますが国の運営に寄り添いながら成長しようと考えています',
+      'The leaders are very supportive and always available to help. Many experienced players aim to grow together while adapting to the state',
     color: 'deep-purple-lighten-1',
   },
   {
-    title: '補足情報',
-    lead: '国がアクティブで過密なのでLv6以上の採集（ガス・鉄）はすぐに無くなります',
-    caption: 'まだまだ若い国です。これからの成長に期待',
+    title: 'Additional Information',
+    lead: 'This state is active and crowded, so resource spots (Gas and Iron) of level 6 or higher are quickly depleted',
+    caption:
+      'S723 is a relatively new state with a lot of potential for growth, and I look forward to growing together and becoming a top alliance',
     color: 'pink',
   },
   {
-    title: '応募方法',
-    lead: 'melon sodaまで！',
-    caption: 'ギルド要塞 S:723 X:212 Y:494',
+    title: 'How to Apply',
+    lead: 'Interested in joining? Reach out to melon soda in game',
+    caption: 'Alliance Fortress: S:723 X:212 Y:494',
     color: 'deep-purple-lighten-1',
   },
 ]
@@ -54,7 +56,7 @@ const messages = [
               <div class="font-weight-bold ms-1 mb-2">
                 <h2 class="heading">
                   <v-chip size="x-large" color="red" style="font-weight: bold">
-                    s723「ASA」の求人情報
+                    Alliance Recruitment. Join ASA in S723
                   </v-chip>
                 </h2>
               </div>

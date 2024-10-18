@@ -26,9 +26,8 @@ const cards = [
     lead: 's723 is recruiting members',
     src: 'https://res.cloudinary.com/dtvanb4qz/image/upload/v1729217642/asa_divofr.jpg',
     //src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
-    //src: 'https://res.cloudinary.com/dtvanb4qz/image/upload/v1701333573/main-thumb-wk.png',
     flex: 6,
-    link: '/recruit',
+    link: '/en/recruit',
   },
   {
     title: 'Event Database',

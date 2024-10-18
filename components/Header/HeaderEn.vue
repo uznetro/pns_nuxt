@@ -29,7 +29,7 @@ const items = [
     title: 'Recruit Info',
     subtitle: 's723 is recruiting members',
     icon: 'mdi-gamepad-circle-right',
-    link: '/recruit',
+    link: '/en/recruit',
   },
 ]
 
