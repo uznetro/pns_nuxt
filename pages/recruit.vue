@@ -2,40 +2,41 @@
 const messages = [
   {
     title: '募集職種',
-    lead: 'hq38（T12）以上！成長を止めず前向きに育成予定の方',
-    caption: 'ギルド内にcc40多数在籍しています！（現在12名）',
+    lead: 'hq38（T12）以上！浄水などのイベントにアクティブな方歓迎',
+    caption: 'ギルド内にcc40多数在籍しています！（ASAのR5は歴戦17億）',
     color: 'pink',
   },
   {
     title: '業務内容',
-    lead: '荒野、浄水などでわちゃわちゃ遊びましょう！',
-    caption: '荒野参加は任意です！ご予定に合わせて参加いただけます',
+    lead: '浄水リーグや極地などSvSイベント楽しみたいメンバーが集まっています',
+    caption: 'SvS系イベントが好きな方はすごくマッチするかも！？',
     color: 'deep-purple-lighten-1',
   },
 
   {
     title: 'ギルド概要',
-    lead: '荒野プラチナキープ、ギル対常に完走（ノルマなし）、ギフトLv30などなど',
-    caption: '無理な戦いは基本しません...諦めも大事',
+    lead: 'アジア多国籍ギルドです',
+    caption:
+      'ギルドを立ち上げたばかりです。色々大変ですが一緒にギルドを作りましょう',
     color: 'pink',
   },
   {
     title: 'PRポイント',
-    lead: 's425のTOPギルド！！とてもアクティブです。戦力上位は海外の方でまぁまぁ多国籍ギルド！',
+    lead: 's723の戦力TOPギルド！個人的に新興国はイベントやコロシアムなどすごく緩い印象です',
     caption:
-      '戦力順でサブ垢1対は同ギルド所属可。サブ・姉妹ギルドもあるので複数垢でもOK',
+      'ギルマスはとても温和で優しいです！強国から経験者が多数集まっていますが国の運営に寄り添いながら成長しようと考えています',
     color: 'deep-purple-lighten-1',
   },
   {
-    title: 'デメリット的な',
-    lead: '国自体が超アクティブで過密なのでLv6〜採集（ガス・鉄）はなかなか大変です',
-    caption: 'Lv5採集出来たらいいや〜って感じでやってます',
+    title: '補足情報',
+    lead: '国がアクティブで過密なのでLv6〜採集（ガス・鉄）は大変',
+    caption: 'まだまだ若い国です。これからの成長に期待',
     color: 'pink',
   },
   {
     title: '応募方法',
-    lead: 'melon soda.か、ギルド官職者まで！',
-    caption: 'ギルド要塞 S:425 X:235 Y:477',
+    lead: 'melon sodaまで！',
+    caption: 'ギルド要塞 S:723 X:212 Y:494',
     color: 'deep-purple-lighten-1',
   },
 ]
@@ -53,7 +54,7 @@ const messages = [
               <div class="font-weight-bold ms-1 mb-2">
                 <h2 class="heading">
                   <v-chip size="x-large" color="red" style="font-weight: bold">
-                    s425「AAA」の求人情報
+                    s723「ASA」の求人情報
                   </v-chip>
                 </h2>
               </div>

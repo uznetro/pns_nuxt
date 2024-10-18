@@ -26,11 +26,11 @@ const items = [
     link: '/gift',
   },
   {
-    title: 'Formation Simulator',
-    subtitle: '荒野編成システム（プロトタイプ）',
+    title: 'Recruit Info',
+    subtitle: 'ギルドメンバー・移民募集',
     src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
     icon: 'mdi-gamepad-circle-right',
-    //link: '/wk',
+    link: '/recruit',
   },
 ]
 

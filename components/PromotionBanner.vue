@@ -15,12 +15,12 @@
     <v-row dense>
       <v-col cols="12">
         <div class="pr-contents" height="100%">
-          <h3 class="title">promotion</h3>
+          <h3 class="title">Recruitment</h3>
           <p class="lead">
-            S425
-            [AAA]移民者募集中！浄水リーグ２連続プレーオフ進出、荒野プラチナキープなアクティブギルドです！
+            S723
+            [ASA]移民者募集中！新興国ですが歴戦17億などアクティブな強者が集まっています
           </p>
-          <nuxt-link to="/promotion">
+          <nuxt-link to="/recruit">
             <v-img
               lazy-src="https://picsum.photos/id/11/10/6"
               class="bnr-img"

@@ -22,11 +22,12 @@ const cards = [
     link: '/en/gift',
   },
   {
-    title: 'Formation Simulator',
-    lead: 'Wasteland King Tool',
-    src: 'https://res.cloudinary.com/dtvanb4qz/image/upload/v1701333573/main-thumb-wk.png',
+    title: 'Recruit Info',
+    lead: 's723 is recruiting members',
+    src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
+    //src: 'https://res.cloudinary.com/dtvanb4qz/image/upload/v1701333573/main-thumb-wk.png',
     flex: 6,
-    link: '/en',
+    link: '/recruit',
   },
   {
     title: 'Event Database',

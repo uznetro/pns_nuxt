@@ -26,11 +26,11 @@ const items = [
     link: '/en/gift',
   },
   {
-    title: 'Formation Simulator',
-    subtitle: 'Wasteland King Tool (prototype)',
+    title: 'Recruit Info',
+    subtitle: 's723 is recruiting members',
     src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
     icon: 'mdi-gamepad-circle-right',
-    //link: '/wk',
+    link: '/recruit',
   },
 ]
 
