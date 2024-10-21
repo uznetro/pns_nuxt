@@ -67,7 +67,7 @@ const data = [
   },
   {
     name: 'Sat',
-    Event: 'Promote/Enhance/Remodeling',
+    Event: 'Promote/Enhance/ Remodeling',
     Memo: '',
   },
   {
