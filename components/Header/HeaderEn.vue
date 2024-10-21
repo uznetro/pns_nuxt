@@ -97,8 +97,7 @@ const show = ref(false) // ドロワーの初期状態
         <div>
           <div class="text-h6 mb-1">Notes.</div>
           <div class="text-caption">
-            This site has nothing to do with the official site. Please refrain
-            from contacting the official site.
+            This is an unofficial fan site. Please direct any inquiries to me
           </div>
         </div>
       </v-card-item>

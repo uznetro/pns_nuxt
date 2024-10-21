@@ -100,6 +100,7 @@ withDefaults(defineProps<Props>(), {
   text-align: center;
   margin-top: 10px;
   display: block;
+  max-width: 280px;
 }
 
 .label {
