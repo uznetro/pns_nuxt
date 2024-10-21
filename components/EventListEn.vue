@@ -82,17 +82,17 @@ const data2 = [
   {
     name: 'Mon',
     Event: 'Hero',
-    Memo: 'Joy777',
+    Memo: 'Joy Capsule',
   },
   {
     name: 'Tue',
-    Event: 'Build/Train/Research',
-    Memo: 'Joy777',
+    Event: 'Build/Train/Research SpeedUp',
+    Memo: 'Joy Capsule',
   },
   {
     name: 'Wed',
-    Event: 'Gear  & Core/Curio',
-    Memo: 'Joy777',
+    Event: 'Gear & Core/Curio',
+    Memo: 'Joy Capsule',
   },
   {
     name: 'Thu',
