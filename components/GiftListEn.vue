@@ -29,13 +29,13 @@ const data = [
   //エスコマ週
   {
     name: 'Mon',
-    Event: 'Charge Gift Available!',
+    Event: 'Timed Top Up Available!',
     Memo: 'N/A',
     isActive: true,
   },
   {
     name: 'Tue',
-    Event: 'Charge Gift Available!',
+    Event: 'Timed Top Up Available!',
     Memo: 'N/A',
   },
   {
@@ -45,7 +45,7 @@ const data = [
   },
   {
     name: 'Thu',
-    Event: 'Charge Gift Available!',
+    Event: 'Timed Top Up Available!',
     Memo: 'N/A',
   },
   {
@@ -69,7 +69,7 @@ const data2 = [
   //通常週
   {
     name: 'Mon',
-    Event: 'Charge Gift Available!',
+    Event: 'Timed Top Up Available!',
     Memo: 'N/A',
     isActive: true,
   },
@@ -80,12 +80,12 @@ const data2 = [
   },
   {
     name: 'Wed',
-    Event: 'Charge Gift Available!',
+    Event: 'Timed Top Up Available!',
     Memo: 'N/A',
   },
   {
     name: 'Thu',
-    Event: 'Charge Gift Available!',
+    Event: 'Timed Top Up Available!',
     Memo: 'N/A',
   },
   {

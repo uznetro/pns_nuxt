@@ -15,8 +15,8 @@ const cards = [
     link: '/en/break',
   },
   {
-    title: 'Top Up Gift',
-    lead: 'Top Up Gift Schedule',
+    title: 'Timed Top Up',
+    lead: 'Timed Top Up Schedule',
     src: 'https://res.cloudinary.com/dtvanb4qz/image/upload/v1701330874/main-thumb-gift.png',
     flex: 6,
     link: '/en/gift',
@@ -24,7 +24,7 @@ const cards = [
   {
     title: 'Recruit Info',
     lead: 's723 is recruiting members',
-    src: 'https://res.cloudinary.com/dtvanb4qz/image/upload/v1729217642/asa_divofr.jpg',
+    src: 'https://res.cloudinary.com/dtvanb4qz/image/upload/v1729611735/Designer_6_zdwepr.jpg',
     //src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
     flex: 6,
     link: '/en/recruit',

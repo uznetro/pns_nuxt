@@ -55,14 +55,14 @@ const offWeekSatDayData = [
     <tbody>
       <tr>
         <td>Mon</td>
-        <td>Charge Gift Available!</td>
+        <td>Timed Top Up Available</td>
         <td>
           <Dialog label="[AceWeek] Mon" table-body :data="aceWeekManDayData" />
         </td>
       </tr>
       <tr>
         <td>Tue</td>
-        <td>Charge Gift Available!</td>
+        <td>Timed Top Up Available</td>
         <td>
           <Dialog
             label="[AceWeek] Tue"
@@ -77,7 +77,7 @@ const offWeekSatDayData = [
       </tr>
       <tr>
         <td>Thu</td>
-        <td>Charge Gift Available!</td>
+        <td>Timed Top Up Available</td>
         <td>
           <Dialog
             label="[AceWeek] Thu"
@@ -116,7 +116,7 @@ const offWeekSatDayData = [
     <tbody>
       <tr>
         <td>Mon</td>
-        <td>Charge Gift Available!</td>
+        <td>Timed Top Up Available</td>
         <td>
           <Dialog
             label="[OffWeek] Mon"
@@ -126,7 +126,7 @@ const offWeekSatDayData = [
       </tr>
       <tr>
         <td>Tue</td>
-        <td>Charge Gift Available!</td>
+        <td>Timed Top Up Available</td>
         <td>
           <Dialog
             label="[OffWeek] Mon"
@@ -146,7 +146,7 @@ const offWeekSatDayData = [
       </tr>
       <tr>
         <td>Fri</td>
-        <td>Charge Gift Available!</td>
+        <td>Timed Top Up Available</td>
         <td>
           <Dialog
             label="[OffWeek] Mon"
@@ -156,7 +156,7 @@ const offWeekSatDayData = [
       </tr>
       <tr>
         <td>Sat</td>
-        <td>Charge Gift Available!</td>
+        <td>Timed Top Up Available</td>
         <td>
           <Dialog label="[OffWeek] Mon" table-body :data="offWeekSatDayData" />
         </td>
