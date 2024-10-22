@@ -21,7 +21,7 @@ const items = [
   },
   {
     title: 'Timed Top Up',
-    subtitle: 'TTimed Top Up Schedule',
+    subtitle: 'Timed Top Up Schedule',
     icon: 'mdi-gift-open-outline',
     link: '/en/gift',
   },
