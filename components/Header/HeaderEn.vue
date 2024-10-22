@@ -20,8 +20,8 @@ const items = [
     link: '/en/break',
   },
   {
-    title: 'Top Up Gift',
-    subtitle: 'Top Up Gift Schedule',
+    title: 'Timed Top Up',
+    subtitle: 'TTimed Top Up Schedule',
     icon: 'mdi-gift-open-outline',
     link: '/en/gift',
   },
