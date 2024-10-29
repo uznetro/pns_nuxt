@@ -30,7 +30,7 @@ const messages = [
   },
   {
     title: 'Additional Information',
-    lead: 'This state is active and crowded, so resource spots (Gas and Iron) of level 6 or higher are quickly depleted',
+    lead: 'around 60 people have participated in our Stamina Party events',
     caption:
       'S723 is a relatively new state with a lot of potential for growth, and I look forward to growing together and becoming a top alliance',
     color: 'pink',
