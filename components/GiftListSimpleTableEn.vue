@@ -13,8 +13,8 @@ const aceWeekManDayData = [
     Gift2: '20 TimedRecruitCoin, 50 MightChoiceBox、50 PromoteBoxⅡ, etc',
   },
   {
-    Charge3: '66,000 Diamond',
-    Gift2: '20 TimedRecruitCoin, 100 MightChoiceBox、100 PromoteBoxⅡ, etc',
+    Charge3: '52,800 Diamond',
+    Gift2: '20 TimedRecruitCoin, 75 MightChoiceBox、25 Advanced Promo, etc',
   },
   {
     Charge4: '99,000 Diamond',

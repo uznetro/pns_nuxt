@@ -2,7 +2,7 @@
 const messages = [
   {
     title: '募集条件',
-    lead: 'hq38（T12）以上！浄水などのイベントにアクティブな方歓迎',
+    lead: 'hq39（T12）以上！浄水などのイベントにアクティブな方歓迎',
     caption: 'ギルド内にhq40以上が多数在籍！（ASAのR5は歴戦17億）',
     color: 'pink',
   },

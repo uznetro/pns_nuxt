@@ -2,7 +2,7 @@
 const messages = [
   {
     title: 'Requirements',
-    lead: 'HQ38 (T12) or higher! Players who are active in events like SvS are welcome.',
+    lead: 'HQ39 (T12) or higher! Players who are active in events like SvS are welcome.',
     caption:
       'Many HQ40+ commanders in the alliance! (Our ASA R5 has 1.7 billion Highest Might)',
     color: 'pink',
