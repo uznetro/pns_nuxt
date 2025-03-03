@@ -212,7 +212,7 @@ const data = [
     "hq": 40,
     "type": "Rider",
     "mini": "Mini white",
-    "nation": "Rider"
+    "nation": ""
   },
   {
     "main": "WarCmdr40Fighters",
@@ -317,7 +317,7 @@ const data = [
     "hq": 38,
     "type": "Shooter",
     "mini": "NA",
-    "nation": "JPN"
+    "nation": "VN"
   },
   {
     "main": "TínhGià",
@@ -380,7 +380,7 @@ const data = [
     "hq": 38,
     "type": "Rider",
     "mini": "☆Itooコーヒー☆",
-    "nation": "VN/KOR"
+    "nation": "VN/JPN"
   },
   {
     "main": "☞╯ƙє√ɨɲ︵☆",
@@ -436,7 +436,7 @@ const data = [
     "hq": 31,
     "type": "Rider",
     "mini": "NA",
-    "nation": "TW"
+    "nation": "JPN"
   },
   {
     "main": "sain❁ty",
