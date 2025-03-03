@@ -30,7 +30,7 @@ const headers = [
     align: 'start',
     sortable: false,
     key: 'main',
-    width: '120px',
+    width: '160px',
   },
   { title: 'HQ', align: 'start', key: 'hq' },
   { title: 'Type', align: 'start', key: 'type' },
@@ -68,7 +68,7 @@ const data = [
     "nation": "USA"
   },
   {
-    "main": ".༺༺ༀ༒Tomo༒ༀ༻ ༻.",
+    "main": "༺༺ༀ༒Tomo༒ༀ༻ ༻",
     "hq": 43,
     "type": "All",
     "mini": "NA",
@@ -362,7 +362,7 @@ const data = [
     "nation": "JPN"
   },
   {
-    "main": "⍣⃝ KAIDO⍣⃝",
+    "main": "KAIDO",
     "hq": 38,
     "type": "Rider",
     "mini": "NA",
