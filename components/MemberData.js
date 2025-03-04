@@ -464,7 +464,7 @@ export　const data = [
   {
   "main": "꧁༺AFK༻꧂.",
   "rank": "R3",
-  "hq": 36,
+  "hq": 37,
   "type": "Shooter",
   "mini": "꧁༺. BụIcÁm.༻꧂",
   "nation": "VN"
