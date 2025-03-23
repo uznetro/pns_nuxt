@@ -41,7 +41,7 @@ export　const data = [
     {
       "main": "Dr Baek Kang-hyuk",
       "rank": "R3",
-      "hq": 43,
+      "hq": 44,
       "type": "S/F",
       "mini": "NA",
       "nation": "USA"
