@@ -2,8 +2,6 @@
 import { ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 
-//const toggleValue = ref(false)
-
 const route = useRoute()
 const router = useRouter()
 const toggleValue = ref(route.query.param === '1')

@@ -47,7 +47,7 @@ export　const data = [
       "nation": "USA"
     },
     {
-      "main": "༺༺ༀ༒Tomo༒ༀ༻ ༻",
+      "main": "༺༒dark༒༻",
       "rank": "R3",
       "hq": 43,
       "type": "All",

@@ -1,6 +1,15 @@
 <script setup>
 import { ref } from 'vue'
-const toggleValue = ref(false)
+import { useRoute, useRouter } from 'vue-router'
+
+const route = useRoute()
+const router = useRouter()
+const toggleValue = ref(route.query.param === '1')
+
+const onChange = () => {
+  const paramValue = toggleValue.value ? '1' : '0'
+  router.push({ query: { param: paramValue } })
+}
 
 // ダイアログ内のデータ
 const aceWeekManDayData = [
