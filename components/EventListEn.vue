@@ -1,19 +1,7 @@
 <script setup>
 import { ref } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 import { VDataTable } from 'vuetify/labs/VDataTable'
-
-// const {
-//   data: posts,
-//   error,
-//   refresh,
-// } = await useFetch('https://jsonplaceholder.typicode.com/posts/');
-//console.log(posts.value);
-
-let url =
-  'https://sheets.googleapis.com/v4/spreadsheets/1BNYi1rOkTqAD68XCctYsrWG7gnrX6k9AwAOPNBT5RPg/values/datalist!A2:E?key=AIzaSyC_3hocHw2LKLvOsXPgTH2uIfnjzD2OiqI'
-
-const { data: gs } = await useFetch(url)
-console.log(gs.value.values[0]) //ヘッダー行だけ取得できた
 
 const headers = [
   {
@@ -116,17 +104,13 @@ const data2 = [
   },
 ]
 
-const toggleValue = ref(false)
-const onChange = () => {
-  console.log('Switch value:', toggleValue.value)
-  if (toggleValue.value === true) {
-    return data2
-  }
-}
+const route = useRoute()
+const router = useRouter()
+const toggleValue = ref(route.query.param === '1')
 
-const onSwitchChange = (item) => {
-  // Update the item's isActive property when the switch is toggled.
-  item.isActive = !item.isActive
+const onChange = () => {
+  const paramValue = toggleValue.value ? '1' : '0'
+  router.push({ query: { param: paramValue } })
 }
 </script>
 

@@ -129,7 +129,7 @@ const offWeekSatDayData = [
         <td>Timed Top Up Available</td>
         <td>
           <Dialog
-            label="[OffWeek] Mon"
+            label="[OffWeek] Tue"
             img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1701853308/off-tue-gift-eng.png"
           />
         </td>
@@ -149,7 +149,7 @@ const offWeekSatDayData = [
         <td>Timed Top Up Available</td>
         <td>
           <Dialog
-            label="[OffWeek] Mon"
+            label="[OffWeek] Fri"
             img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1702267948/off-fri-gift.png"
           />
         </td>
