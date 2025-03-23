@@ -104,7 +104,6 @@ const data2 = [
   },
 ]
 
-
 const route = useRoute()
 const router = useRouter()
 const toggleValue = ref(route.query.param === '1')

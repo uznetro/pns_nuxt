@@ -25,7 +25,7 @@ export　const data = [
     {
       "main": "ᶺᶳᶺ Gizmo",
       "rank": "R4",
-      "hq": 42,
+      "hq": 43,
       "type": "Rider",
       "mini": "NA",
       "nation": "USA"
@@ -99,7 +99,7 @@ export　const data = [
       "rank": "R3",
       "hq": 41,
       "type": "Shooter",
-      "mini": ".¥ MiniG ¥.",
+      "mini": " ᶺᶳᶺ Miru(~)",
       "nation": "VN/KOR"
     },
     {
