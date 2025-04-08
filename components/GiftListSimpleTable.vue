@@ -2,6 +2,9 @@
 import { ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 
+const variants = 'tonal'
+const color = ref('indigo')
+
 const route = useRoute()
 const router = useRouter()
 const toggleValue = ref(route.query.param === '1')
@@ -214,6 +217,30 @@ const offWeekThuDayData = [
       </tr>
     </tbody>
   </v-table>
+
+  <v-card
+    v-if="toggleValue == true"
+    class="attention-card"
+    :color="color"
+    :variant="variants"
+  >
+    <v-card-item>
+      <div>
+        <div class="text-h6 mb-1">Notes.</div>
+        <div class="text-caption">
+          通常週の週末にチャージリベートなどのイベントが開催される傾向がありますが、イベントの実施を保証するものではございません
+        </div>
+      </div>
+    </v-card-item>
+    <v-card-item>
+      <Dialog
+        variant="outlined"
+        button-label="チャージリベート"
+        label="チャージリベート報酬"
+        img="https://res.cloudinary.com/dtvanb4qz/image/upload/v1744120909/charge-rebate_min_it2zcd.png"
+      />
+    </v-card-item>
+  </v-card>
 </template>
 
 <style lang="scss" scoped>
@@ -232,5 +259,15 @@ const offWeekThuDayData = [
 .v-switch {
   display: flex;
   justify-content: center;
+}
+
+//カード
+.attention-card {
+  margin: 20px 8px 8px;
+  padding-bottom: 10px;
+}
+
+.v-card-item {
+  padding: 0.625rem 1rem 0;
 }
 </style>

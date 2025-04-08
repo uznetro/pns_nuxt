@@ -4,31 +4,45 @@ const dialog = ref(false)
 
 export interface Props {
   label?: string
-  img: string
-  id: string
+  img?: string
+  id?: string
   tableBody?: boolean
-  data: string
-  note: string
+  data?: string
+  note?: string
+  buttonLabel?: string
+  variant?: boolean
 }
 
-withDefaults(defineProps<Props>(), {
+const props = withDefaults(defineProps<Props>(), {
   label: 'Sample Component',
   tableBody: false,
   tableCaption: 'header text',
   tableLoop: 1,
+  buttonLabel: 'Detail',
+  img: '',
+  data: '',
+  note: '',
+  id: '',
+  variant: false,
 })
 </script>
 <template>
   <v-dialog v-model="dialog" :retain-focus="false" width="auto">
-    <template #activator="{ props }">
-      <v-btn size="small" color="primary" v-bind="props"> Detail </v-btn>
+    <template #activator="{ props: activatorProps }">
+      <v-btn
+        color="primary"
+        v-bind="activatorProps"
+        :variant="props.variant ? 'outlined' : undefined"
+      >
+        {{ buttonLabel }}
+      </v-btn>
     </template>
 
     <v-card :retain-focus="false">
       <v-card-text>
         <p class="label">{{ label }}</p>
         <br />
-        <v-img max-width="280" :src="img" class="dialog-img" />
+        <v-img v-if="img" max-width="280" :src="img" class="dialog-img" />
         <div v-if="tableBody">
           <v-table class="gift-table">
             <thead>
@@ -64,8 +78,9 @@ withDefaults(defineProps<Props>(), {
           color="primary"
           variant="elevated"
           @click="dialog = false"
-          >Close</v-btn
         >
+          Close
+        </v-btn>
       </v-card-actions>
     </v-card>
   </v-dialog>
