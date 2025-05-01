@@ -279,6 +279,14 @@ export const data = [
     nation: '',
   },
   {
+    main: '~Cooper~',
+    rank: 'R3',
+    hq: 40,
+    type: 'Fighter',
+    mini: 'NA',
+    nation: '',
+  },
+  {
     main: 'Trinity(とりにてぃ)',
     rank: 'R3',
     hq: 39,
