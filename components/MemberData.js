@@ -48,7 +48,7 @@ export const data = [
   },
   {
     main: '༺༒dark༒༻',
-    rank: 'R3',
+    rank: 'R4',
     hq: 43,
     type: 'All',
     mini: 'NA',
