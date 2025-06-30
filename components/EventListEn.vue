@@ -50,8 +50,8 @@ const data = [
   },
   {
     name: 'Fri',
-    Event: 'Bioenhancer/Refiner',
-    Memo: '',
+    Event: 'Bioenhancer/Refiner/Mecha Materials',
+    Memo: 'Skill Data a& Skill Core',
   },
   {
     name: 'Sat',
@@ -89,7 +89,7 @@ const data2 = [
   },
   {
     name: 'Fri',
-    Event: 'Glory/Bio',
+    Event: 'Glory/Bio/Mecha Module',
     Memo: '',
   },
   {

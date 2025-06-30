@@ -50,8 +50,8 @@ const data = [
   },
   {
     name: '金曜',
-    Event: '器官強化/ギア',
-    Memo: '',
+    Event: '器官強化/ギア/メカマテリアル',
+    Memo: 'Skill Data & Skill Core',
   },
   {
     name: '土曜',
@@ -89,7 +89,7 @@ const data2 = [
   },
   {
     name: '金曜',
-    Event: '栄誉/器官強化',
+    Event: '栄誉/器官強化/メカモジュール',
     Memo: '',
   },
   {
