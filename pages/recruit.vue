@@ -2,42 +2,35 @@
 const messages = [
   {
     title: '募集条件',
-    lead: 'hq39（T12）以上！浄水などのイベントにアクティブな方歓迎',
-    caption: 'ギルド内にhq40以上が多数在籍！（ASAのR5は歴戦17億）',
+    lead: 'hq40（T13）以上！荒野やギルドイベントにアクティブな方',
+    caption: 'hq40以上が多数在籍！（2025極地首領）',
     color: 'pink',
   },
-  {
-    title: 'ビジョン',
-    lead: '浄水リーグや極地などSvSイベント楽しみたいメンバーが集まっています',
-    caption: 'SvSが好きなら、ここはあなたにぴったりの場所かもしれません',
-    color: 'deep-purple-lighten-1',
-  },
-
   {
     title: '概要',
-    lead: 'アジア多国籍ギルドです',
-    caption:
-      'ギルドを立ち上げたばかりです。色々大変ですが一緒にギルドを作りましょう',
-    color: 'pink',
+    lead: 'アジア/欧米 多国籍ギルドです',
+    caption: 'イベント時間は2330~(JST)',
+    color: 'deep-purple-lighten-1',
   },
   {
     title: 'PRポイント',
-    lead: 's723の戦力TOPギルド！個人的に新興国はイベントやコロシアムなどすごく緩い印象です',
+    lead: '浄水70アカウント参加のアクティブギルドです',
     caption:
-      'ギルマスはとても温和で優しいです！強国から経験者が多数集まっていますが国の運営に寄り添いながら成長しようと考えています',
-    color: 'deep-purple-lighten-1',
-  },
-  {
-    title: '補足情報',
-    lead: 'まだ実施回数少ないですが、スタミナパーティーは60名程参加！',
-    caption: 'まだまだ若い国です。これからの成長に期待',
+      '荒野はマスター・ダイヤモンドをキープ。荒野T11~参加でNAP（実質ALL NAP）',
     color: 'pink',
   },
   {
-    title: '応募方法',
-    lead: 'melon sodaまで！',
-    caption: 'ギルド要塞 S:723 X:212 Y:494',
+    title: '補足情報',
+    lead: 'スタミナパーティーは最大60名程参加！',
+    caption:
+      'ギフトのLVアップのため、移民譲渡用のギルドでスタミナパーティーを実施しています。',
     color: 'deep-purple-lighten-1',
+  },
+  {
+    title: '応募方法',
+    lead: 'SoDAまで！',
+    caption: 'ギルド要塞 S:723 X:212 Y:494',
+    color: 'pink',
   },
 ]
 </script>
