@@ -1,22 +1,21 @@
 <script setup>
 const messages = [
   {
-    title: '募集条件',
-    lead: 'hq40（T13）以上！荒野やギルドイベントにアクティブな方',
-    caption: 'hq40以上が多数在籍！（2025極地首領）',
+    title: '募集内容',
+    lead: '100人受入可能な箱解放！！',
+    caption: '今だけ、移民ギルドを【1箱のみ】受け入れ可能！',
     color: 'pink',
   },
   {
     title: '概要',
-    lead: 'アジア/欧米 多国籍ギルドです',
-    caption: 'イベント時間は2330~(JST)',
+    lead: 'アクティブな環境で戦いたい！メンバー全員で移民OK',
+    caption: 'サブギルドが欲しい場合は箱をお作りして待ってます',
     color: 'deep-purple-lighten-1',
   },
   {
     title: 'PRポイント',
-    lead: '浄水70アカウント参加のアクティブギルドです',
-    caption:
-      '荒野はマスター・ダイヤモンドをキープ。荒野T11~参加でNAP（実質ALL NAP）',
+    lead: '荒野:マスターorダイヤキープ',
+    caption: 'hq40以上が多数在籍！（2025極地首領）',
     color: 'pink',
   },
   {
@@ -28,8 +27,8 @@ const messages = [
   },
   {
     title: '応募方法',
-    lead: 'SoDAまで！',
-    caption: 'ギルド要塞 S:723 X:209 Y:493',
+    lead: 'Maw or SoDAまで！',
+    caption: 'ASAギルド要塞 S:723 X:209 Y:493',
     color: 'pink',
   },
 ]
@@ -51,16 +50,16 @@ const messages = [
                     color="red"
                     class="mr-2 font-weight-bold"
                   >
-                    723「ASA」求人情報
+                    723「ギルド移民」募集
                   </v-chip>
                   <v-chip
                     size="small"
                     color="blue"
                     variant="outlined"
                     style="font-weight: bold"
-                    ><a href="/recruit723" style="color: #2196f3">
-                      723「ギルド移民」募集
-                    </a>
+                    ><a href="/recruit" style="color: #2196f3">
+                      723「ASA」求人情報</a
+                    >
                   </v-chip>
                 </h2>
               </div>
