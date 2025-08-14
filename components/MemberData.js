@@ -156,7 +156,7 @@ export const data = [
     hq: 41,
     type: 'Rider',
     mini: 'NA',
-    nation: 'VN',
+    nation: '',
   },
   {
     main: 'UNIMO',
@@ -164,7 +164,7 @@ export const data = [
     hq: 41,
     type: 'Fighter',
     mini: 'NA',
-    nation: 'VN',
+    nation: 'JPN',
   },
   {
     main: 'ᶺᶳᶺ pico',
@@ -220,7 +220,7 @@ export const data = [
     hq: 40,
     type: 'Rider',
     mini: '➷Minion 2.0 ᥫ᭡',
-    nation: 'TBC',
+    nation: '',
   },
   {
     main: 'Sǝαɲ乙',
@@ -228,7 +228,7 @@ export const data = [
     hq: 40,
     type: 'Rider',
     mini: 'NA',
-    nation: 'NA',
+    nation: 'USA',
   },
   {
     main: 'ᶺᶳᶺ Λяѕєη',
