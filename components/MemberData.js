@@ -92,7 +92,7 @@ export const data = [
     hq: 44,
     type: 'Rider',
     mini: 'Brassiere less',
-    nation: 'JPN',
+    nation: 'USA',
   },
   {
     main: 'ᶺᶳᶺ YakItori',
