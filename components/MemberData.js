@@ -123,7 +123,7 @@ export const data = [
     rank: 'R2',
     hq: 42,
     type: 'Rider',
-    mini: "Moch's",
+    mini: 'NA',
     nation: 'EURO',
   },
   {
@@ -162,7 +162,7 @@ export const data = [
     main: 'UNIMO',
     rank: 'R3',
     hq: 41,
-    type: 'Rider',
+    type: 'Fighter',
     mini: 'NA',
     nation: 'VN',
   },
