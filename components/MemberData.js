@@ -67,7 +67,7 @@ export const data = [
     rank: 'R4',
     hq: 42,
     type: 'Rider',
-    mini: 'Mini Sweetstorm',
+    mini: 'NA',
     nation: 'SG',
   },
   {
@@ -235,7 +235,7 @@ export const data = [
     rank: 'R4',
     hq: 40,
     type: 'Rider',
-    mini: 'NA',
+    mini: 'Λяѕєη',
     nation: 'EURO',
   },
   {
@@ -251,7 +251,7 @@ export const data = [
     rank: 'R3',
     hq: 40,
     type: 'Fighter',
-    mini: 'NA',
+    mini: 'ᶺᶳᶺ cooper',
     nation: 'TW',
   },
   {
@@ -372,7 +372,7 @@ export const data = [
     hq: 40,
     type: 'Fighter',
     mini: 'NA',
-    nation: '',
+    nation: 'SG',
   },
   {
     main: 'WarCmdr40Fighters',
@@ -420,14 +420,14 @@ export const data = [
     hq: 39,
     type: 'Rider',
     mini: 'NA',
-    nation: '',
+    nation: 'VN',
   },
   {
     main: '.BERLIAN',
     rank: 'R3',
     hq: 39,
     type: 'Rider',
-    mini: '.RATU BERLIAN',
+    mini: 'NA',
     nation: 'INDO',
   },
   {
@@ -515,7 +515,7 @@ export const data = [
     rank: 'R3',
     hq: 38,
     type: 'Shooter',
-    mini: '꧁༺. BụIcÁm.༻꧂',
+    mini: 'NA',
     nation: 'VN',
   },
   {
@@ -533,6 +533,14 @@ export const data = [
     type: 'Shooter',
     mini: 'NA',
     nation: 'KOR',
+  },
+  {
+    main: 'boondock❁saint',
+    rank: 'R2',
+    hq: 31,
+    type: 'Shooter',
+    mini: 'NA',
+    nation: 'USA',
   },
   {
     main: '◣_◢ Panda_ꓘſ',
