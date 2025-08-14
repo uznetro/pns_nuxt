@@ -127,6 +127,14 @@ export const data = [
     nation: 'JPN',
   },
   {
+    main: 'ᶺᶳᶺ ULIULI',
+    rank: 'R3',
+    hq: 41,
+    type: 'Rider',
+    mini: 'NA',
+    nation: 'JPN',
+  },
+  {
     main: '★國泰建設★',
     rank: 'R3',
     hq: 41,
