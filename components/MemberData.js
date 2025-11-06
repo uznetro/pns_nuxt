@@ -60,7 +60,7 @@ export const data = [
     hq: 45,
     type: 'All',
     mini: 'NA',
-    nation: 'HKG',
+    nation: 'USA',
   },
   {
     main: 'Ɓaϻ Ɓaϻ',
@@ -191,6 +191,14 @@ export const data = [
     nation: 'JPN',
   },
   {
+    main: '_小黑黑黑啊',
+    rank: 'R3',
+    hq: 42,
+    type: 'Rider',
+    mini: 'NA',
+    nation: '',
+  },
+  {
     main: 'Figgin',
     rank: 'R3',
     hq: 41,
@@ -265,6 +273,14 @@ export const data = [
   {
     main: '★REBEL★',
     rank: 'R2',
+    hq: 41,
+    type: 'Rider',
+    mini: 'NA',
+    nation: 'VN',
+  },
+  {
+    main: 'IM SWORD',
+    rank: 'R3',
     hq: 41,
     type: 'Rider',
     mini: 'NA',
@@ -395,7 +411,7 @@ export const data = [
     rank: 'R3',
     hq: 40,
     type: 'Rider',
-    mini: '༺ʙäʙy ʍäℓ༻',
+    mini: 'NA',
     nation: 'MY',
   },
   {
@@ -412,7 +428,7 @@ export const data = [
     hq: 40,
     type: 'Fighter',
     mini: 'NA',
-    nation: 'THAI',
+    nation: 'THA',
   },
   {
     main: 'ᴵᴬᴹ ＨＡＤＥＳ',
@@ -476,7 +492,7 @@ export const data = [
     hq: 40,
     type: 'Rider',
     mini: 'NA',
-    nation: 'THAI',
+    nation: 'THA',
   },
   {
     main: '░M░I░L░L░',
