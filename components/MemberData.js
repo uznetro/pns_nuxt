@@ -724,6 +724,6 @@ export const data = [
     hq: 31,
     type: 'Rider',
     mini: 'NA',
-    nation: 'ESP',
+    nation: 'MEX',
   },
 ]
