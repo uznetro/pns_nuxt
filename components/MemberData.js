@@ -71,14 +71,6 @@ export const data = [
     nation: 'USA',
   },
   {
-    main: 'ㄗęɓɓľęs',
-    rank: 'R4',
-    hq: 45,
-    type: 'All',
-    mini: 'NA',
-    nation: 'USA',
-  },
-  {
     main: 'ᶺᶳᶺ Gizmo',
     rank: 'R4',
     hq: 44,
@@ -163,7 +155,7 @@ export const data = [
     rank: 'R3',
     hq: 42,
     type: 'Fighter',
-    mini: 'CONIMO',
+    mini: 'NA',
     nation: 'JPN',
   },
   {
@@ -171,7 +163,7 @@ export const data = [
     rank: 'R3',
     hq: 42,
     type: 'Shooter',
-    mini: 'ᶺᶳᶺ pico mini',
+    mini: 'NA',
     nation: 'JPN',
   },
   {
@@ -243,7 +235,7 @@ export const data = [
     rank: 'R3',
     hq: 41,
     type: 'Rider',
-    mini: 'ঔ ᶺᶳᶺ Honey ࿐',
+    mini: 'NA',
     nation: 'JPN',
   },
   {
@@ -643,7 +635,7 @@ export const data = [
     rank: 'R3',
     hq: 39,
     type: 'Fighter',
-    mini: 'Lê Tùng 9',
+    mini: 'NA',
     nation: 'VN',
   },
   {
@@ -677,6 +669,14 @@ export const data = [
     type: 'Shooter',
     mini: 'NA',
     nation: 'VN',
+  },
+  {
+    main: 'ᶺᶳᶺÐařŧhŽaža',
+    rank: 'R3',
+    hq: 38,
+    type: 'Rider',
+    mini: 'NA',
+    nation: 'USA',
   },
   {
     main: 'NothingbutLatte',
