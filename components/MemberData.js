@@ -340,7 +340,7 @@ export const data = [
     hq: 40,
     type: 'Fighter',
     mini: 'NA',
-    nation: '',
+    nation: 'UK',
   },
   {
     main: 'Shagg N BaitMASTER',
@@ -402,7 +402,7 @@ export const data = [
     main: '༺sᴡeetყ ʍäℓ༻',
     rank: 'R3',
     hq: 40,
-    type: 'Rider',
+    type: 'Fighter',
     mini: 'NA',
     nation: 'MY',
   },
